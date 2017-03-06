@@ -10,10 +10,10 @@ function getDevTool() {
 
 module.exports = {
   entry: {
-    main: './src/scripts/main.js'
+    main: './src/main.js'
   },
   output: {
-    filename: './dist/scripts/[name].js'
+    filename: './dist/[name].js'
   },
   devtool: getDevTool(),
   module: {
@@ -35,5 +35,5 @@ module.exports = {
       loader: ExtractTextPlugin.extract('css!sass')
     }]
   },
-  plugins: [new ExtractTextPlugin('dist/styles/main.css', {allChunks: true})]
+  plugins: [new ExtractTextPlugin('dist/main.css', {allChunks: true})]
 };

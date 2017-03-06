@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/overview.scss';
+import './scss/overview.scss';
 
 class Overview extends React.Component {
   render() {
