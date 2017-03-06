@@ -25,7 +25,6 @@ class Overview extends React.Component {
         return response.json();
       })
       .then((trips) => {
-        console.log(trips);
         this.loading = false;
         this.setState({ trips });
       });
@@ -34,19 +33,17 @@ class Overview extends React.Component {
   render() {
     return (
       <div className="container">
-        { this.loading ?
-          <span className="center">Loading..</span>
-          :
-          <div className="row">
-            <TotalWidget
-              color="medium"
-              totals={this.state.trips.total}
-            />
-            <NextTripWidget
-              color="light"
-              nextTrip={this.state.trips.next}
-            />
-          </div>
+        { this.loading ? <span>Loading..</span> :
+        <div className="row">
+          <TotalWidget
+            color="medium"
+            totals={this.state.trips.total}
+          />
+          <NextTripWidget
+            color="light"
+            nextTrip={this.state.trips.next}
+          />
+        </div>
         }
       </div>
     );

@@ -2,14 +2,6 @@ import React from 'react';
 import './scss/widget.scss';
 
 class NextTripWidget extends React.Component {
-  constructor() {
-    super();
-
-    this.defaultProps = {
-      nextTrip: {}
-    };
-  }
-
   render() {
     const nextTrip = this.props.nextTrip;
     let sectionClasses = 'card next';
@@ -34,5 +26,20 @@ class NextTripWidget extends React.Component {
     );
   }
 }
+
+NextTripWidget.defaultProps = {
+  nextTrip: {},
+  color: ''
+};
+
+NextTripWidget.propTypes = {
+  nextTrip: React.PropTypes.shape({
+    destination: React.PropTypes.string,
+    dateFrom: React.PropTypes.string,
+    dateUntil: React.PropTypes.string,
+    description: React.PropTypes.string
+  }),
+  color: React.PropTypes.string,
+};
 
 export default NextTripWidget;

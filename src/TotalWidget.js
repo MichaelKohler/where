@@ -2,18 +2,6 @@ import React from 'react';
 import './scss/widget.scss';
 
 class TotalWidget extends React.Component {
-  constructor() {
-    super();
-
-    this.defaultProps = {
-      totals: {
-        trips: 0,
-        flights: 0,
-        countries: 0
-      }
-    };
-  }
-
   render() {
     let sectionClasses = 'card vertical';
     if (this.props.color) {
@@ -38,5 +26,23 @@ class TotalWidget extends React.Component {
     );
   }
 }
+
+TotalWidget.defaultProps = {
+  totals: {
+    trips: 0,
+    flights: 0,
+    countries: 0
+  },
+  color: ''
+};
+
+TotalWidget.propTypes = {
+  totals: React.PropTypes.shape({
+    trips: React.PropTypes.number,
+    flights: React.PropTypes.number,
+    countries: React.PropTypes.number,
+  }),
+  color: React.PropTypes.string,
+};
 
 export default TotalWidget;

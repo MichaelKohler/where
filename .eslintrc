@@ -3,6 +3,7 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/prefer-stateless-function": 1,
-    "arrow-body-style": 0
+    "arrow-body-style": 0,
+    "comma-dangle": 0
   }
 }
