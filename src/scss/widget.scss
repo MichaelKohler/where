@@ -1,0 +1,47 @@
+@import '../scss/_variables';
+
+.card {
+  background-color: $brand-color;
+  color: $font-color-light;
+  min-width: 43%;
+  padding: 20px 40px 20px 40px;
+  margin: 10px 0 10px 0;
+
+  &.light {
+    background-color: $light-brand-color;
+  }
+
+  &.medium {
+    background-color: $medium-brand-color;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.vertical {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &.next {
+    padding-top: 5px;
+
+    .destination,
+    .date,
+    .description {
+      text-align: center;
+    }
+  }
+
+  .number {
+    text-align: center;
+
+    h2 {
+      font-size: 3em;
+      margin: 0;
+    }
+  }
+}

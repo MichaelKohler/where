@@ -4,7 +4,10 @@ import './scss/footer.scss';
 class Footer extends React.Component {
   render() {
     return (
-      <h1>Footer</h1>
+      <footer>
+        <p>© 2016 Michael Kohler - JavaScript frontend and backend developer
+          with a passion for Web Standards</p>
+      </footer>
     );
   }
 }

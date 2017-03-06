@@ -1,0 +1,12 @@
+@import '../scss/_variables';
+
+footer {
+  background-color: $brand-color;
+  color: $font-color-light;
+  height: 4em;
+  padding-left: 1em;
+
+  p {
+    line-height: 4em;
+  }
+}

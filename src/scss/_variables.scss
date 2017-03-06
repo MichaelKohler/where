@@ -1,0 +1,9 @@
+$background-color: rgb(235, 235, 235);
+$brand-color: rgb(31, 51, 82);
+$medium-brand-color: lighten($brand-color, 15%);
+$light-brand-color: lighten($brand-color, 30%);
+
+$text-font-family: 'Raleway', sans-serif;
+$title-font-family: 'Dosis', sans-serif;
+$font-color: rgb(23, 23, 23);
+$font-color-light: $background-color;
