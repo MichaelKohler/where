@@ -2,17 +2,16 @@ import React from 'react';
 import './scss/widget.scss';
 
 class NextTripWidget extends React.Component {
-  getNextTrip() {
-    return {
-      destination: 'Berlin',
-      dateFrom: new Date('2017-03-10'),
-      dateUntil: new Date('2017-03-13'),
-      description: 'Testdescription'
+  constructor() {
+    super();
+
+    this.defaultProps = {
+      nextTrip: {}
     };
   }
 
   render() {
-    const nextTrip = this.getNextTrip();
+    const nextTrip = this.props.nextTrip;
     let sectionClasses = 'card next';
 
     if (this.props.color) {
@@ -25,8 +24,8 @@ class NextTripWidget extends React.Component {
           <h1>Next trip: {nextTrip.destination}</h1>
         </div>
         <div className="date">
-          <p>{nextTrip.dateFrom.toDateString()}&nbsp;-&nbsp;
-            {nextTrip.dateUntil.toDateString()}</p>
+          <p>{new Date(nextTrip.dateFrom).toDateString()}&nbsp;-&nbsp;
+            {new Date(nextTrip.dateUntil).toDateString()}</p>
         </div>
         <div className="description">
           <p>{nextTrip.description}</p>

@@ -2,16 +2,16 @@ import React from 'react';
 import './scss/widget.scss';
 
 class TotalWidget extends React.Component {
-  calculateTrips() {
-    return 5;
-  }
+  constructor() {
+    super();
 
-  calculateFlights() {
-    return 3;
-  }
-
-  calculateCountries() {
-    return 3;
+    this.defaultProps = {
+      totals: {
+        trips: 0,
+        flights: 0,
+        countries: 0
+      }
+    };
   }
 
   render() {
@@ -23,15 +23,15 @@ class TotalWidget extends React.Component {
     return (
       <section className={sectionClasses}>
         <div className="number">
-          <h2>{this.calculateTrips()}</h2>
+          <h2>{this.props.totals.trips}</h2>
           <p>total trips</p>
         </div>
         <div className="number">
-          <h2>{this.calculateFlights()}</h2>
+          <h2>{this.props.totals.flights}</h2>
           <p>total flights</p>
         </div>
         <div className="number">
-          <h2>{this.calculateCountries()}</h2>
+          <h2>{this.props.totals.countries}</h2>
           <p>total countries</p>
         </div>
       </section>
