@@ -4,7 +4,11 @@ import './scss/overview.scss';
 class Overview extends React.Component {
   render() {
     return (
-      <h1>Overview</h1>
+      <div className="container">
+        <div className="row">
+          <h1>Overview</h1>
+        </div>
+      </div>
     );
   }
 }
