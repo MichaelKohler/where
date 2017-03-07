@@ -4,11 +4,19 @@ import './scss/triptable.scss';
 class TripTableEntry extends React.Component {
   render() {
     const trip = this.props.trip;
+    const classes = [];
+    const today = new Date();
+    trip.dateFrom = new Date(trip.dateFrom);
+    trip.dateUntil = new Date(trip.dateUntil);
+
+    if (trip.dateFrom > today) {
+      classes.push('future');
+    }
 
     return (
-      <tr>
-        <td>{new Date(trip.dateFrom).toDateString()}</td>
-        <td>{new Date(trip.dateUntil).toDateString()}</td>
+      <tr className={classes}>
+        <td>{trip.dateFrom.toDateString()}</td>
+        <td>{trip.dateUntil.toDateString()}</td>
         <td>{trip.destination}</td>
         <td>{trip.country}</td>
         <td>{trip.description}</td>
