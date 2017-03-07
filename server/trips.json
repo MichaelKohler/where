@@ -1,538 +1,529 @@
 {
-    "trips": {
-        "2017": [{
-            "destination": "Santorini",
-            "country": "GR",
-            "dateFrom": "2017-04-13",
-            "dateUntil": "2017-04-18",
-            "description": "",
-            "flights": 6
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2017-03-31",
-            "dateUntil": "2017-04-02",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2017-03-24",
-            "dateUntil": "2017-03-26",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2017-03-10",
-            "dateUntil": "2017-03-12",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2017-02-03",
-            "dateUntil": "2017-02-05",
-            "description": "",
-            "flights": 2
-        }],
-        "2016": [{
-            "destination": "Honolulu",
-            "country": "US",
-            "dateFrom": "2016-12-14",
-            "dateUntil": "2016-12-16",
-            "description": "After All Hands",
-            "flights": 2
-        }, {
-            "destination": "Kona",
-            "country": "US",
-            "dateFrom": "2016-12-03",
-            "dateUntil": "2016-12-18",
-            "description": "All Hands",
-            "flights": 6
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2016-11-18",
-            "dateUntil": "2016-11-20",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "London",
-            "country": "UK",
-            "dateFrom": "2016-10-26",
-            "dateUntil": "2016-10-28",
-            "description": "Mozilla Festival",
-            "flights": 2
-        }, {
-            "destination": "Greece",
-            "country": "GR",
-            "dateFrom": "2016-09-10",
-            "dateUntil": "2016-09-18",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "London",
-            "country": "UK",
-            "dateFrom": "2016-06-11",
-            "dateUntil": "2016-06-18",
-            "description": "All Hands",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2016-04-15",
-            "dateUntil": "2016-04-18",
-            "description": "Reps Council Meetup",
-            "flights": 2
-        }, {
-            "destination": "Athens",
-            "country": "GR",
-            "dateFrom": "2016-03-25",
-            "dateUntil": "2016-03-28",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "Brussels",
-            "country": "BE",
-            "dateFrom": "2016-01-29",
-            "dateUntil": "2016-01-31",
-            "description": "FOSDEM",
-            "flights": 2
-        }, {
-            "destination": "Bali",
-            "country": "ID",
-            "dateFrom": "2016-01-25",
-            "dateUntil": "2016-01-28",
-            "description": "After Leadership Summit",
-            "flights": 2
-        }, {
-            "destination": "Bali",
-            "country": "ID",
-            "dateFrom": "2016-01-19",
-            "dateUntil": "2016-01-25",
-            "description": "Mozilla Leadership Summit",
-            "flights": 3
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2016-01-08",
-            "dateUntil": "2016-01-10",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "Athens",
-            "country": "GR",
-            "dateFrom": "2015-12-31",
-            "dateUntil": "2016-01-03",
-            "description": "",
-            "flights": 2
-        }],
-        "2015": [{
-            "destination": "Orlando",
-            "country": "US",
-            "dateFrom": "2015-12-06",
-            "dateUntil": "2015-12-12",
-            "description": "All Hands",
-            "flights": 4
-        }, {
-            "destination": "London",
-            "country": "UK",
-            "dateFrom": "2015-11-06",
-            "dateUntil": "2015-11-10",
-            "description": "Mozilla Festival",
-            "flights": 2
-        }, {
-            "destination": "Freiburg",
-            "country": "DE",
-            "dateFrom": "2015-09-19",
-            "dateUntil": "2015-09-19",
-            "description": "Mozilla Meetup",
-            "flights": 0
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2015-09-07",
-            "dateUntil": "2015-09-13",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "Thessaloniki",
-            "country": "GR",
-            "dateFrom": "2015-07-23",
-            "dateUntil": "2015-07-28",
-            "description": "MozVacations",
-            "flights": 4
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2015-07-10",
-            "dateUntil": "2015-07-12",
-            "description": "Mozilla Weekend",
-            "flights": 2
-        }, {
-            "destination": "Vancouver/Whistler",
-            "country": "CA",
-            "dateFrom": "2015-06-20",
-            "dateUntil": "2015-06-27",
-            "description": "All Hands",
-            "flights": 4
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2015-05-14",
-            "dateUntil": "2015-05-14",
-            "description": "OpenTechSummit",
-            "flights": 2
-        }, {
-            "destination": "Tirana",
-            "country": "AL",
-            "dateFrom": "2015-05-08",
-            "dateUntil": "2015-05-12",
-            "description": "OSCAL",
-            "flights": 4
-        }, {
-            "destination": "Dresden",
-            "country": "DE",
-            "dateFrom": "2015-04-24",
-            "dateUntil": "2015-04-26",
-            "description": "MobileCamp",
-            "flights": 2
-        }, {
-            "destination": "Singapore",
-            "country": "SG",
-            "dateFrom": "2015-03-10",
-            "dateUntil": "2015-03-16",
-            "description": "FOSS Asia",
-            "flights": 4
-        }, {
-            "destination": "Playa del Carmen",
-            "country": "MX",
-            "dateFrom": "2015-02-23",
-            "dateUntil": "2015-03-09",
-            "description": "",
-            "flights": 4
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2015-02-20",
-            "dateUntil": "2015-02-22",
-            "description": "MozillaDE Meetup",
-            "flights": 2
-        }, {
-            "destination": "Brussels",
-            "country": "BE",
-            "dateFrom": "2015-01-30",
-            "dateUntil": "2015-02-02",
-            "description": "FOSDEM",
-            "flights": 2
-        }],
-        "2014": [{
-            "destination": "Hamburg",
-            "country": "DE",
-            "dateFrom": "2014-12-26",
-            "dateUntil": "2014-12-31",
-            "description": "31C3",
-            "flights": 2
-        }, {
-            "destination": "Cologne",
-            "country": "DE",
-            "dateFrom": "2014-12-11",
-            "dateUntil": "2014-12-13",
-            "description": "Firefox OS Promotion",
-            "flights": 2
-        }, {
-            "destination": "Stuttgart",
-            "country": "DE",
-            "dateFrom": "2014-11-28",
-            "dateUntil": "2014-11-30",
-            "description": "Firefox OS Promotion",
-            "flights": 2
-        }, {
-            "destination": "Frankfurt",
-            "country": "DE",
-            "dateFrom": "2014-11-21",
-            "dateUntil": "2014-11-23",
-            "description": "Mozilla Firefox OS App Day",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2014-11-09",
-            "dateUntil": "2014-11-11",
-            "description": "10 Years Firefox #decade",
-            "flights": 2
-        }, {
-            "destination": "London",
-            "country": "UK",
-            "dateFrom": "2014-10-24",
-            "dateUntil": "2014-10-26",
-            "description": "Mozilla Festival",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2014-10-10",
-            "dateUntil": "2014-10-12",
-            "description": "Mozilla Hacking Day",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2014-09-22",
-            "dateUntil": "2014-09-25",
-            "description": "Mozilla",
-            "flights": 2
-        }, {
-            "destination": "Bologna",
-            "country": "IT",
-            "dateFrom": "2014-09-17",
-            "dateUntil": "2014-09-20",
-            "description": "From the Front Conference",
-            "flights": 0
-        }, {
-            "destination": "Playa del Carmen",
-            "country": "MX",
-            "dateFrom": "2014-08-15",
-            "dateUntil": "2014-09-11",
-            "description": "",
-            "flights": 4
-        }, {
-            "destination": "San Francisco",
-            "country": "US",
-            "dateFrom": "2014-08-12",
-            "dateUntil": "2014-08-14",
-            "description": "",
-            "flights": 1
-        }, {
-            "destination": "Las Vegas",
-            "country": "US",
-            "dateFrom": "2014-08-06",
-            "dateUntil": "2014-08-11",
-            "description": "",
-            "flights": 1
-        }, {
-            "destination": "New York",
-            "country": "US",
-            "dateFrom": "2014-08-01",
-            "dateUntil": "2014-08-06",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "Dresden",
-            "country": "DE",
-            "dateFrom": "2014-05-09",
-            "dateUntil": "2014-05-11",
-            "description": "MobileCamp",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2014-04-24",
-            "dateUntil": "2014-04-26",
-            "description": "Mozilla Hacking Day",
-            "flights": 2
-        }, {
-            "destination": "Paris",
-            "country": "FR",
-            "dateFrom": "2014-04-14",
-            "dateUntil": "2014-04-16",
-            "description": "Work",
-            "flights": 0
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2014-04-04",
-            "dateUntil": "2014-04-06",
-            "description": "Mozilla l10n/MDN Sprints",
-            "flights": 2
-        }, {
-            "destination": "Salzburg",
-            "country": "AT",
-            "dateFrom": "2014-03-14",
-            "dateUntil": "2014-03-16",
-            "description": "Barcamp - Firefox OS Workshop",
-            "flights": 2
-        }, {
-            "destination": "Linz",
-            "country": "AT",
-            "dateFrom": "2014-03-01",
-            "dateUntil": "2014-03-01",
-            "description": "Kodio Conference",
-            "flights": 0
-        }, {
-            "destination": "München",
-            "country": "DE",
-            "dateFrom": "2014-02-28",
-            "dateUntil": "2014-03-02",
-            "description": "Travel to Kodio Conference",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2014-02-07",
-            "dateUntil": "2014-02-09",
-            "description": "MozillaDE Meetup",
-            "flights": 2
-        }, {
-            "destination": "Playa del Carmen",
-            "country": "MX",
-            "dateFrom": "2014-01-20",
-            "dateUntil": "2014-02-04",
-            "description": "",
-            "flights": 4
-        }],
-        "2013": [{
-            "destination": "Hamburg",
-            "country": "DE",
-            "dateFrom": "2013-12-27",
-            "dateUntil": "2013-12-30",
-            "description": "30C3",
-            "flights": 2
-        }, {
-            "destination": "Paris",
-            "country": "FR",
-            "dateFrom": "2013-11-27",
-            "dateUntil": "2013-11-29",
-            "description": "Work",
-            "flights": 0
-        }, {
-            "destination": "Düsseldorf",
-            "country": "DE",
-            "dateFrom": "2013-11-15",
-            "dateUntil": "2013-11-17",
-            "description": "Firefox OS App Day",
-            "flights": 2
-        }, {
-            "destination": "London",
-            "country": "UK",
-            "dateFrom": "2013-10-24",
-            "dateUntil": "2013-10-28",
-            "description": "Mozilla Festival",
-            "flights": 2
-        }, {
-            "destination": "Edinburgh",
-            "country": "UK",
-            "dateFrom": "2013-10-19",
-            "dateUntil": "2013-10-24",
-            "description": "LinuxCon Europe",
-            "flights": 1
-        }, {
-            "destination": "Brussels",
-            "country": "BE",
-            "dateFrom": "2013-10-03",
-            "dateUntil": "2013-10-07",
-            "description": "Mozilla Summit",
-            "flights": 2
-        }, {
-            "destination": "Erfurt",
-            "country": "DE",
-            "dateFrom": "2013-06-14",
-            "dateUntil": "2013-06-16",
-            "description": "Barcamp",
-            "flights": 0
-        }, {
-            "destination": "Vienna",
-            "country": "AT",
-            "dateFrom": "2013-05-03",
-            "dateUntil": "2013-05-05",
-            "description": "Firefox OS App Day",
-            "flights": 2
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2013-04-19",
-            "dateUntil": "2013-04-21",
-            "description": "Mozilla de:hacking Meetup",
-            "flights": 2
-        }, {
-            "destination": "Playa del Carmen",
-            "country": "MX",
-            "dateFrom": "2013-01-19",
-            "dateUntil": "2013-02-02",
-            "description": "",
-            "flights": 4
-        }, {
-            "destination": "Berlin",
-            "country": "DE",
-            "dateFrom": "2013-01-03",
-            "dateUntil": "2013-01-06",
-            "description": "MozillaDE Meetup",
-            "flights": 2
-        }],
-        "2012": [{
-            "destination": "London",
-            "country": "UK",
-            "dateFrom": "2012-11-08",
-            "dateUntil": "2012-11-12",
-            "description": "Mozilla Festival",
-            "flights": 2
-        }, {
-            "destination": "Barcelona",
-            "country": "ES",
-            "dateFrom": "2012-11-04",
-            "dateUntil": "2012-11-08",
-            "description": "LinuxCon Europe",
-            "flights": 1
-        }, {
-            "destination": "Warsaw",
-            "country": "PL",
-            "dateFrom": "2012-09-07",
-            "dateUntil": "2012-09-09",
-            "description": "Mozilla Summit",
-            "flights": 2
-        }, {
-            "destination": "Amsterdam",
-            "country": "NL",
-            "dateFrom": "2012-04-12",
-            "dateUntil": "2012-04-16",
-            "description": "",
-            "flights": 2
-        }],
-        "2011": [{
-            "destination": "London",
-            "country": "UK",
-            "dateFrom": "2011-11-04",
-            "dateUntil": "2011-11-07",
-            "description": "Mozilla Festival",
-            "flights": 2
-        }, {
-            "destination": "Cairns, Gold Coast, Melbourne, Sydney, Yulara... TODO",
-            "country": "AU",
-            "dateFrom": "2011-05-02",
-            "dateUntil": "2010-07-29",
-            "description": "",
-            "flights": 10
-        }],
-        "2010": [{
-            "destination": "Side",
-            "country": "TR",
-            "dateFrom": "2010-09-25",
-            "dateUntil": "2010-10-09",
-            "description": "",
-            "flights": 2
-        }, {
-            "destination": "Rome",
-            "country": "IT",
-            "dateFrom": "2010-03-01",
-            "dateUntil": "2010-03-07",
-            "description": "",
-            "flights": 0
-        }]
-    },
-    "otherVisited": [
-        "CZ",
-        "FL"
-    ],
-    "wishlist": [
-        "BR",
-        "NO",
-        "SE",
-        "FI",
-        "NZ",
-        "RO",
-        "RU",
-        "TH",
-        "JP"
-    ]
+  "visited": [{
+    "destination": "Santorini",
+    "country": "GR",
+    "dateFrom": "2017-04-13",
+    "dateUntil": "2017-04-18",
+    "description": "",
+    "flights": 6
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-03-31",
+    "dateUntil": "2017-04-02",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-03-24",
+    "dateUntil": "2017-03-26",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-03-10",
+    "dateUntil": "2017-03-12",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-02-03",
+    "dateUntil": "2017-02-05",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Honolulu",
+    "country": "US",
+    "dateFrom": "2016-12-14",
+    "dateUntil": "2016-12-16",
+    "description": "After All Hands",
+    "flights": 2
+  }, {
+    "destination": "Kona",
+    "country": "US",
+    "dateFrom": "2016-12-03",
+    "dateUntil": "2016-12-18",
+    "description": "All Hands",
+    "flights": 6
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2016-11-18",
+    "dateUntil": "2016-11-20",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2016-10-26",
+    "dateUntil": "2016-10-28",
+    "description": "Mozilla Festival",
+    "flights": 2
+  }, {
+    "destination": "Greece",
+    "country": "GR",
+    "dateFrom": "2016-09-10",
+    "dateUntil": "2016-09-18",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2016-06-11",
+    "dateUntil": "2016-06-18",
+    "description": "All Hands",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2016-04-15",
+    "dateUntil": "2016-04-18",
+    "description": "Reps Council Meetup",
+    "flights": 2
+  }, {
+    "destination": "Athens",
+    "country": "GR",
+    "dateFrom": "2016-03-25",
+    "dateUntil": "2016-03-28",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Brussels",
+    "country": "BE",
+    "dateFrom": "2016-01-29",
+    "dateUntil": "2016-01-31",
+    "description": "FOSDEM",
+    "flights": 2
+  }, {
+    "destination": "Bali",
+    "country": "ID",
+    "dateFrom": "2016-01-25",
+    "dateUntil": "2016-01-28",
+    "description": "After Leadership Summit",
+    "flights": 2
+  }, {
+    "destination": "Bali",
+    "country": "ID",
+    "dateFrom": "2016-01-19",
+    "dateUntil": "2016-01-25",
+    "description": "Mozilla Leadership Summit",
+    "flights": 3
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2016-01-08",
+    "dateUntil": "2016-01-10",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Athens",
+    "country": "GR",
+    "dateFrom": "2015-12-31",
+    "dateUntil": "2016-01-03",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Orlando",
+    "country": "US",
+    "dateFrom": "2015-12-06",
+    "dateUntil": "2015-12-12",
+    "description": "All Hands",
+    "flights": 4
+  }, {
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2015-11-06",
+    "dateUntil": "2015-11-10",
+    "description": "Mozilla Festival",
+    "flights": 2
+  }, {
+    "destination": "Freiburg",
+    "country": "DE",
+    "dateFrom": "2015-09-19",
+    "dateUntil": "2015-09-19",
+    "description": "Mozilla Meetup",
+    "flights": 0
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2015-09-07",
+    "dateUntil": "2015-09-13",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Thessaloniki",
+    "country": "GR",
+    "dateFrom": "2015-07-23",
+    "dateUntil": "2015-07-28",
+    "description": "MozVacations",
+    "flights": 4
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2015-07-10",
+    "dateUntil": "2015-07-12",
+    "description": "Mozilla Weekend",
+    "flights": 2
+  }, {
+    "destination": "Vancouver/Whistler",
+    "country": "CA",
+    "dateFrom": "2015-06-20",
+    "dateUntil": "2015-06-27",
+    "description": "All Hands",
+    "flights": 4
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2015-05-14",
+    "dateUntil": "2015-05-14",
+    "description": "OpenTechSummit",
+    "flights": 2
+  }, {
+    "destination": "Tirana",
+    "country": "AL",
+    "dateFrom": "2015-05-08",
+    "dateUntil": "2015-05-12",
+    "description": "OSCAL",
+    "flights": 4
+  }, {
+    "destination": "Dresden",
+    "country": "DE",
+    "dateFrom": "2015-04-24",
+    "dateUntil": "2015-04-26",
+    "description": "MobileCamp",
+    "flights": 2
+  }, {
+    "destination": "Singapore",
+    "country": "SG",
+    "dateFrom": "2015-03-10",
+    "dateUntil": "2015-03-16",
+    "description": "FOSS Asia",
+    "flights": 4
+  }, {
+    "destination": "Playa del Carmen",
+    "country": "MX",
+    "dateFrom": "2015-02-23",
+    "dateUntil": "2015-03-09",
+    "description": "",
+    "flights": 4
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2015-02-20",
+    "dateUntil": "2015-02-22",
+    "description": "MozillaDE Meetup",
+    "flights": 2
+  }, {
+    "destination": "Brussels",
+    "country": "BE",
+    "dateFrom": "2015-01-30",
+    "dateUntil": "2015-02-02",
+    "description": "FOSDEM",
+    "flights": 2
+  }, {
+    "destination": "Hamburg",
+    "country": "DE",
+    "dateFrom": "2014-12-26",
+    "dateUntil": "2014-12-31",
+    "description": "31C3",
+    "flights": 2
+  }, {
+    "destination": "Cologne",
+    "country": "DE",
+    "dateFrom": "2014-12-11",
+    "dateUntil": "2014-12-13",
+    "description": "Firefox OS Promotion",
+    "flights": 2
+  }, {
+    "destination": "Stuttgart",
+    "country": "DE",
+    "dateFrom": "2014-11-28",
+    "dateUntil": "2014-11-30",
+    "description": "Firefox OS Promotion",
+    "flights": 2
+  }, {
+    "destination": "Frankfurt",
+    "country": "DE",
+    "dateFrom": "2014-11-21",
+    "dateUntil": "2014-11-23",
+    "description": "Mozilla Firefox OS App Day",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2014-11-09",
+    "dateUntil": "2014-11-11",
+    "description": "10 Years Firefox #decade",
+    "flights": 2
+  }, {
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2014-10-24",
+    "dateUntil": "2014-10-26",
+    "description": "Mozilla Festival",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2014-10-10",
+    "dateUntil": "2014-10-12",
+    "description": "Mozilla Hacking Day",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2014-09-22",
+    "dateUntil": "2014-09-25",
+    "description": "Mozilla",
+    "flights": 2
+  }, {
+    "destination": "Bologna",
+    "country": "IT",
+    "dateFrom": "2014-09-17",
+    "dateUntil": "2014-09-20",
+    "description": "From the Front Conference",
+    "flights": 0
+  }, {
+    "destination": "Playa del Carmen",
+    "country": "MX",
+    "dateFrom": "2014-08-15",
+    "dateUntil": "2014-09-11",
+    "description": "",
+    "flights": 4
+  }, {
+    "destination": "San Francisco",
+    "country": "US",
+    "dateFrom": "2014-08-12",
+    "dateUntil": "2014-08-14",
+    "description": "",
+    "flights": 1
+  }, {
+    "destination": "Las Vegas",
+    "country": "US",
+    "dateFrom": "2014-08-06",
+    "dateUntil": "2014-08-11",
+    "description": "",
+    "flights": 1
+  }, {
+    "destination": "New York",
+    "country": "US",
+    "dateFrom": "2014-08-01",
+    "dateUntil": "2014-08-06",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Dresden",
+    "country": "DE",
+    "dateFrom": "2014-05-09",
+    "dateUntil": "2014-05-11",
+    "description": "MobileCamp",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2014-04-24",
+    "dateUntil": "2014-04-26",
+    "description": "Mozilla Hacking Day",
+    "flights": 2
+  }, {
+    "destination": "Paris",
+    "country": "FR",
+    "dateFrom": "2014-04-14",
+    "dateUntil": "2014-04-16",
+    "description": "Work",
+    "flights": 0
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2014-04-04",
+    "dateUntil": "2014-04-06",
+    "description": "Mozilla l10n/MDN Sprints",
+    "flights": 2
+  }, {
+    "destination": "Salzburg",
+    "country": "AT",
+    "dateFrom": "2014-03-14",
+    "dateUntil": "2014-03-16",
+    "description": "Barcamp - Firefox OS Workshop",
+    "flights": 2
+  }, {
+    "destination": "Linz",
+    "country": "AT",
+    "dateFrom": "2014-03-01",
+    "dateUntil": "2014-03-01",
+    "description": "Kodio Conference",
+    "flights": 0
+  }, {
+    "destination": "München",
+    "country": "DE",
+    "dateFrom": "2014-02-28",
+    "dateUntil": "2014-03-02",
+    "description": "Travel to Kodio Conference",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2014-02-07",
+    "dateUntil": "2014-02-09",
+    "description": "MozillaDE Meetup",
+    "flights": 2
+  }, {
+    "destination": "Playa del Carmen",
+    "country": "MX",
+    "dateFrom": "2014-01-20",
+    "dateUntil": "2014-02-04",
+    "description": "",
+    "flights": 4
+  }, {
+    "destination": "Hamburg",
+    "country": "DE",
+    "dateFrom": "2013-12-27",
+    "dateUntil": "2013-12-30",
+    "description": "30C3",
+    "flights": 2
+  }, {
+    "destination": "Paris",
+    "country": "FR",
+    "dateFrom": "2013-11-27",
+    "dateUntil": "2013-11-29",
+    "description": "Work",
+    "flights": 0
+  }, {
+    "destination": "Düsseldorf",
+    "country": "DE",
+    "dateFrom": "2013-11-15",
+    "dateUntil": "2013-11-17",
+    "description": "Firefox OS App Day",
+    "flights": 2
+  }, {
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2013-10-24",
+    "dateUntil": "2013-10-28",
+    "description": "Mozilla Festival",
+    "flights": 2
+  }, {
+    "destination": "Edinburgh",
+    "country": "UK",
+    "dateFrom": "2013-10-19",
+    "dateUntil": "2013-10-24",
+    "description": "LinuxCon Europe",
+    "flights": 1
+  }, {
+    "destination": "Brussels",
+    "country": "BE",
+    "dateFrom": "2013-10-03",
+    "dateUntil": "2013-10-07",
+    "description": "Mozilla Summit",
+    "flights": 2
+  }, {
+    "destination": "Erfurt",
+    "country": "DE",
+    "dateFrom": "2013-06-14",
+    "dateUntil": "2013-06-16",
+    "description": "Barcamp",
+    "flights": 0
+  }, {
+    "destination": "Vienna",
+    "country": "AT",
+    "dateFrom": "2013-05-03",
+    "dateUntil": "2013-05-05",
+    "description": "Firefox OS App Day",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2013-04-19",
+    "dateUntil": "2013-04-21",
+    "description": "Mozilla de:hacking Meetup",
+    "flights": 2
+  }, {
+    "destination": "Playa del Carmen",
+    "country": "MX",
+    "dateFrom": "2013-01-19",
+    "dateUntil": "2013-02-02",
+    "description": "",
+    "flights": 4
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2013-01-03",
+    "dateUntil": "2013-01-06",
+    "description": "MozillaDE Meetup",
+    "flights": 2
+  }, {
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2012-11-08",
+    "dateUntil": "2012-11-12",
+    "description": "Mozilla Festival",
+    "flights": 2
+  }, {
+    "destination": "Barcelona",
+    "country": "ES",
+    "dateFrom": "2012-11-04",
+    "dateUntil": "2012-11-08",
+    "description": "LinuxCon Europe",
+    "flights": 1
+  }, {
+    "destination": "Warsaw",
+    "country": "PL",
+    "dateFrom": "2012-09-07",
+    "dateUntil": "2012-09-09",
+    "description": "Mozilla Summit",
+    "flights": 2
+  }, {
+    "destination": "Amsterdam",
+    "country": "NL",
+    "dateFrom": "2012-04-12",
+    "dateUntil": "2012-04-16",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2011-11-04",
+    "dateUntil": "2011-11-07",
+    "description": "Mozilla Festival",
+    "flights": 2
+  }, {
+    "destination": "Cairns, Gold Coast, Melbourne, Sydney, Yulara... TODO",
+    "country": "AU",
+    "dateFrom": "2011-05-02",
+    "dateUntil": "2010-07-29",
+    "description": "",
+    "flights": 10
+  }, {
+    "destination": "Side",
+    "country": "TR",
+    "dateFrom": "2010-09-25",
+    "dateUntil": "2010-10-09",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Rome",
+    "country": "IT",
+    "dateFrom": "2010-03-01",
+    "dateUntil": "2010-03-07",
+    "description": "",
+    "flights": 0
+  }],
+  "otherVisited": [
+    "CZ",
+    "FL"
+  ],
+  "wishlist": [
+    "BR",
+    "NO",
+    "SE",
+    "FI",
+    "NZ",
+    "RO",
+    "RU",
+    "TH",
+    "JP"
+  ]
 }

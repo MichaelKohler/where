@@ -33,10 +33,8 @@ const getNextTrip = () => {
   let nextTrip = {};
   const allTrips = [];
 
-  _.each(trips.trips, (year) => {
-    _.each(year, (trip) => {
-      allTrips.push(trip);
-    });
+  _.each(trips.visited, (visit) => {
+    allTrips.push(visit);
   });
 
   const sortedTrips = _.sortBy(allTrips, ['dateFrom']).reverse();
@@ -54,15 +52,7 @@ const getNextTrip = () => {
 };
 
 const calculateTotalTrips = () => {
-  let totalTrips = 0;
-
-  _.each(trips.trips, (year) => {
-    _.each(year, () => {
-      totalTrips += 1;
-    });
-  });
-
-  totalTrips += trips.otherVisited.length;
+  const totalTrips = trips.visited.length + trips.otherVisited.length;
 
   return totalTrips;
 };
@@ -70,10 +60,8 @@ const calculateTotalTrips = () => {
 const calculateTotalFlights = () => {
   let totalFlights = 0;
 
-  _.each(trips.trips, (year) => {
-    _.each(year, (trip) => {
-      totalFlights += trip.flights;
-    });
+  _.each(trips.visited, (trip) => {
+    totalFlights += trip.flights;
   });
 
   return totalFlights;
@@ -82,10 +70,8 @@ const calculateTotalFlights = () => {
 const calculateTotalCountries = () => {
   let allCountries = [];
 
-  _.each(trips.trips, (year) => {
-    _.each(year, (trip) => {
-      allCountries.push(trip.country);
-    });
+  _.each(trips.visited, (trip) => {
+    allCountries.push(trip.country);
   });
 
   allCountries = allCountries.concat(trips.otherVisited);

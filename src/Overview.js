@@ -3,6 +3,7 @@
 import React from 'react';
 import TotalWidget from './TotalWidget';
 import NextTripWidget from './NextTripWidget';
+import TripTable from './TripTable';
 import './scss/overview.scss';
 
 class Overview extends React.Component {
@@ -34,16 +35,21 @@ class Overview extends React.Component {
     return (
       <div className="container">
         { this.loading ? <span>Loading..</span> :
-        <div className="row">
-          <TotalWidget
-            color="medium"
-            totals={this.state.trips.total}
+        <section>
+          <div className="row">
+            <TotalWidget
+              color="medium"
+              totals={this.state.trips.total}
+            />
+            <NextTripWidget
+              color="light"
+              nextTrip={this.state.trips.next}
+            />
+          </div>
+          <TripTable
+            trips={this.state.trips.visited}
           />
-          <NextTripWidget
-            color="light"
-            nextTrip={this.state.trips.next}
-          />
-        </div>
+        </section>
         }
       </div>
     );
