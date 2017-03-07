@@ -4,8 +4,7 @@ import './scss/footer.scss';
 const Footer = () => {
   return (
     <footer>
-      <p>© 2016 Michael Kohler - JavaScript frontend and backend developer
-        with a passion for Web Standards</p>
+      <p>© 2016 Michael Kohler - Data accurate from 2013 onwards, before some are missing..</p>
     </footer>
   );
 };
