@@ -4,6 +4,7 @@ import React from 'react';
 import TotalWidget from './TotalWidget';
 import NextTripWidget from './NextTripWidget';
 import TripTable from './TripTable';
+import VisitedMap from './VisitedMap';
 import './scss/overview.scss';
 
 class Overview extends React.Component {
@@ -46,6 +47,9 @@ class Overview extends React.Component {
               nextTrip={this.state.trips.next}
             />
           </div>
+          <VisitedMap
+            countries={this.state.trips.allCountries}
+          />
           <TripTable
             trips={this.state.trips.visited}
           />
