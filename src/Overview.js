@@ -1,4 +1,4 @@
-/* global fetch */
+/* global fetch document */
 
 import React from 'react';
 import TotalWidget from './TotalWidget';
@@ -22,7 +22,7 @@ class Overview extends React.Component {
   }
 
   getData() {
-    fetch('http://localhost:4444/trips')
+    fetch(`${document.location.protocol}//${document.location.hostname}:4444/trips`)
       .then((response) => {
         return response.json();
       })
