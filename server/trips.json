@@ -249,7 +249,7 @@
     "country": "DE",
     "dateFrom": "2014-11-28",
     "dateUntil": "2014-11-30",
-    "description": "Firefox OS Promotion",
+    "description": "Hackathon",
     "flights": 2
   }, {
     "destination": "Frankfurt",
@@ -497,12 +497,47 @@
     "description": "Mozilla Festival",
     "flights": 2
   }, {
-    "destination": "Cairns, Gold Coast, Melbourne, Sydney, Yulara",
+    "destination": "Sydney",
+    "country": "AU",
+    "dateFrom": "2011-07-17",
+    "dateUntil": "2011-07-29",
+    "description": "",
+    "flights": 4
+  }, {
+    "destination": "Yulara",
+    "country": "AU",
+    "dateFrom": "2011-07-15",
+    "dateUntil": "2011-07-17",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Sydney",
+    "country": "AU",
+    "dateFrom": "2011-06-02",
+    "dateUntil": "2011-07-15",
+    "description": "",
+    "flights": 1
+  }, {
+    "destination": "Melbourne",
+    "country": "AU",
+    "dateFrom": "2011-05-30",
+    "dateUntil": "2011-06-02",
+    "description": "",
+    "flights": 1
+  }, {
+    "destination": "Gold Coast",
+    "country": "AU",
+    "dateFrom": "2011-05-20",
+    "dateUntil": "2011-05-30",
+    "description": "",
+    "flights": 1
+  }, {
+    "destination": "Cairns",
     "country": "AU",
     "dateFrom": "2011-05-02",
-    "dateUntil": "2010-07-29",
+    "dateUntil": "2011-05-20",
     "description": "",
-    "flights": 10
+    "flights": 4
   }, {
     "destination": "Side",
     "country": "TR",
