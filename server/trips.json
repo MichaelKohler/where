@@ -510,6 +510,13 @@
     "dateUntil": "2010-03-07",
     "description": "",
     "flights": 0
+  }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2000-01-01",
+    "dateUntil": "2000-01-01",
+    "description": "Guess what? :)",
+    "flights": 0
   }],
   "otherVisited": [
     "CZ",
