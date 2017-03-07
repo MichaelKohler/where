@@ -15,11 +15,12 @@ const allowCrossDomain = (req, res, next) => {
 app.use(allowCrossDomain);
 
 app.get('/trips', (req, res) => {
+  trips.allCountries = getUniqueCountries();
   trips.next = trips.next || getNextTrip();
   trips.total = trips.total || {
     trips: calculateTotalTrips(),
     flights: calculateTotalFlights(),
-    countries: calculateTotalCountries()
+    countries: trips.allCountries.length
   };
 
   res.send(trips);
@@ -67,7 +68,7 @@ const calculateTotalFlights = () => {
   return totalFlights;
 };
 
-const calculateTotalCountries = () => {
+const getUniqueCountries = () => {
   let allCountries = [];
 
   _.each(trips.visited, (trip) => {
@@ -76,6 +77,6 @@ const calculateTotalCountries = () => {
 
   allCountries = allCountries.concat(trips.otherVisited);
 
-  const uniqueCountries = _.uniq(allCountries).length;
+  const uniqueCountries = _.uniq(allCountries);
   return uniqueCountries;
 };
