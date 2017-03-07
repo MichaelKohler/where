@@ -58,9 +58,11 @@ const calculateTotalTrips = () => {
 
   _.each(trips.trips, (year) => {
     _.each(year, () => {
-      totalTrips = totalTrips + 1;
+      totalTrips += 1;
     });
   });
+
+  totalTrips += trips.otherVisited.length;
 
   return totalTrips;
 };
@@ -78,13 +80,15 @@ const calculateTotalFlights = () => {
 };
 
 const calculateTotalCountries = () => {
-  const allCountries = [];
+  let allCountries = [];
 
   _.each(trips.trips, (year) => {
     _.each(year, (trip) => {
       allCountries.push(trip.country);
     });
   });
+
+  allCountries = allCountries.concat(trips.otherVisited);
 
   const uniqueCountries = _.uniq(allCountries).length;
   return uniqueCountries;
