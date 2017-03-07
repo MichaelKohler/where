@@ -4,8 +4,7 @@ import React from 'react';
 import TotalWidget from './TotalWidget';
 import NextTripWidget from './NextTripWidget';
 import TripTable from './TripTable';
-import VisitedMap from './VisitedMap';
-import WishlistMap from './WishlistMap';
+import Map from './Map';
 import './scss/overview.scss';
 
 class Overview extends React.Component {
@@ -48,7 +47,7 @@ class Overview extends React.Component {
               totals={this.state.trips.total}
             />
           </div>
-          <VisitedMap
+          <Map
             countries={this.state.trips.allCountries}
             selector="visitedMap"
           />
@@ -56,7 +55,7 @@ class Overview extends React.Component {
             trips={this.state.trips.visited}
           />
           <h1>Wishlist</h1>
-          <WishlistMap
+          <Map
             countries={this.state.trips.wishlist}
             selector="wishlistMap"
           />
