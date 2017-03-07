@@ -10,7 +10,8 @@ class VisitedMap extends React.Component {
   createMap() {
     const map = new google.maps.Map(document.getElementById('visitedMap'), {
       center: { lat: 33.626829, lng: 18.379068 },
-      zoom: 2
+      zoom: 2,
+      disableDefaultUI: true
     });
 
     const whereQuery = `ISO_2DIGIT IN ('${this.props.countries.join('\', \'')}')`;
@@ -18,17 +19,7 @@ class VisitedMap extends React.Component {
       query: {
         select: 'geometry',
         from: '1N2LBk4JHwWpOY4d9fobIn27lfnZ5MDy-NoqqRpk',
-        where: whereQuery,
-        styles: [{
-          polygonOptions: {
-            fillColor: '#1F3352',
-            fillOpacity: 0.5
-          },
-          polylineOptions: {
-            fillColor: '#1F3352',
-            fillOpacity: 0.5
-          }
-        }]
+        where: whereQuery
       },
       map,
       suppressInfoWindows: true
