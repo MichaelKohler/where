@@ -27,12 +27,14 @@
   }
 
   &.next {
-    padding-top: 5px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
 
-    .destination,
-    .date,
-    .description {
-      text-align: center;
+    h1 {
+      font-size: 2em;
+      margin: 0;
     }
   }
 

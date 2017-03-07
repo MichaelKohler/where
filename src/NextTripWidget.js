@@ -12,16 +12,10 @@ class NextTripWidget extends React.Component {
 
     return (
       <section className={sectionClasses}>
-        <div className="destination">
-          <h1>Next trip: {nextTrip.destination}</h1>
-        </div>
-        <div className="date">
-          <p>{new Date(nextTrip.dateFrom).toDateString()}&nbsp;-&nbsp;
-            {new Date(nextTrip.dateUntil).toDateString()}</p>
-        </div>
-        <div className="description">
-          <p>{nextTrip.description}</p>
-        </div>
+        <h1>Next trip: {nextTrip.destination}</h1>
+        <p>{new Date(nextTrip.dateFrom).toDateString()}&nbsp;-&nbsp;
+          {new Date(nextTrip.dateUntil).toDateString()}</p>
+        { nextTrip.description ? <p>{nextTrip.description}</p> : '' }
       </section>
     );
   }
