@@ -14,6 +14,7 @@
     "babel-loader": "~6.2.8",
     "babel-preset-latest": "~6.16.0",
     "babel-preset-react": "~6.16.0",
+    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "~0.26.0",
     "eslint": "^3.17.0",
     "eslint-config-airbnb": "^14.1.0",
