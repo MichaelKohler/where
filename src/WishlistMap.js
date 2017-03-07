@@ -3,12 +3,12 @@ import React from 'react';
 import GeneralMap from './GeneralMap';
 import './scss/map.scss';
 
-class VisitedMap extends GeneralMap {
+class WishlistMap extends GeneralMap {
   render() {
     return (
-      <section id="visitedMap" />
+      <section id="wishlistMap" />
     );
   }
 }
 
-export default VisitedMap;
+export default WishlistMap;
