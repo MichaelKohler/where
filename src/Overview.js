@@ -39,13 +39,13 @@ class Overview extends React.Component {
         { this.loading ? <span>Loading..</span> :
         <section>
           <div className="row">
-            <TotalWidget
-              color="medium"
-              totals={this.state.trips.total}
-            />
             <NextTripWidget
               color="light"
               nextTrip={this.state.trips.next}
+            />
+            <TotalWidget
+              color="medium"
+              totals={this.state.trips.total}
             />
           </div>
           <VisitedMap
