@@ -28,6 +28,13 @@
     "description": "",
     "flights": 2
   }, {
+    "destination": "Amsterdam",
+    "country": "NL",
+    "dateFrom": "2017-02-06",
+    "dateUntil": "2017-02-11",
+    "description": "ISE 2017 (Work)",
+    "flights": 2
+  }, {
     "destination": "Berlin",
     "country": "DE",
     "dateFrom": "2017-02-03",
