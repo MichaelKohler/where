@@ -40,6 +40,7 @@ module.exports = {
     new ExtractTextPlugin('dist/main.css', { allChunks: true }),
     new CopyWebpackPlugin([
       { from: 'robots.txt', to: 'dist/' },
+      { from: 'index.html', to: 'dist/' },
     ], { copyUnmodified: true })
   ]
 };
