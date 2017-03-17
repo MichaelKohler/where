@@ -560,10 +560,59 @@
     "description": "",
     "flights": 0
   }, {
+    "destination": "Side",
+    "country": "TR",
+    "dateFrom": "2009-10-03",
+    "dateUntil": "2009-09-19",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Ayia Napa",
+    "country": "CY",
+    "dateFrom": "2008-10-06",
+    "dateUntil": "2008-09-22",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "La Pineda",
+    "country": "ES",
+    "dateFrom": "2006-08-02",
+    "dateUntil": "2006-07-24",
+    "description": "",
+    "flights": 0
+  }, {
+    "destination": "La Pineda",
+    "country": "ES",
+    "dateFrom": "2005-08-03",
+    "dateUntil": "2005-07-25",
+    "description": "",
+    "flights": 0
+  }, {
+    "destination": "Several Spanish cities",
+    "country": "ES",
+    "dateFrom": "2002-09-22",
+    "dateUntil": "2002-10-08",
+    "description": "",
+    "flights": 0
+  }, {
+    "destination": "Lanzarote",
+    "country": "ES",
+    "dateFrom": "1998-09-23",
+    "dateUntil": "1998-09-30",
+    "description": "",
+    "flights": 0
+  }, {
+    "destination": "Gran Canaria",
+    "country": "ES",
+    "dateFrom": "1997-09-24",
+    "dateUntil": "1997-10-01",
+    "description": "",
+    "flights": 0
+  }, {
     "destination": "Bern",
     "country": "CH",
-    "dateFrom": "2000-01-01",
-    "dateUntil": "2000-01-01",
+    "dateFrom": "1991-01-01",
+    "dateUntil": "1991-01-01",
     "description": "Guess what? :)",
     "flights": 0
   }],
