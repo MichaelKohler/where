@@ -22,7 +22,12 @@ class Overview extends React.Component {
   }
 
   getData() {
-    fetch(`${document.location.protocol}//${document.location.hostname}:4444/trips`)
+    let url = `${document.location.protocol}//${document.location.hostname}/trips`;
+    if (document.location.hostname === 'localhost') {
+      url = 'http://localhost:4444/trips';
+    }
+
+    fetch(url)
       .then((response) => {
         return response.json();
       })
