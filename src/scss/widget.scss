@@ -15,6 +15,10 @@
     background-color: $medium-brand-color;
   }
 
+  &.brand {
+    background-color: $brand-color;
+  }
+
   &:last-child {
     margin-right: 0;
   }

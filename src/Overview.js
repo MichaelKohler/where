@@ -44,11 +44,11 @@ class Overview extends React.Component {
         <section>
           <div className="row">
             <NextTripWidget
-              color="light"
+              color="brand"
               nextTrip={this.state.trips.next}
             />
             <TotalWidget
-              color="medium"
+              color="brand"
               totals={this.state.trips.total}
             />
           </div>
