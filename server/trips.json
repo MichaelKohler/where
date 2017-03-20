@@ -562,29 +562,29 @@
   }, {
     "destination": "Side",
     "country": "TR",
-    "dateFrom": "2009-10-03",
-    "dateUntil": "2009-09-19",
+    "dateFrom": "2009-09-19",
+    "dateUntil": "2009-10-03",
     "description": "",
     "flights": 2
   }, {
     "destination": "Ayia Napa",
     "country": "CY",
-    "dateFrom": "2008-10-06",
-    "dateUntil": "2008-09-22",
+    "dateFrom": "2008-09-22",
+    "dateUntil": "2008-10-06",
     "description": "",
     "flights": 2
   }, {
     "destination": "La Pineda",
     "country": "ES",
-    "dateFrom": "2006-08-02",
-    "dateUntil": "2006-07-24",
+    "dateFrom": "2006-07-24",
+    "dateUntil": "2006-08-02",
     "description": "",
     "flights": 0
   }, {
     "destination": "La Pineda",
     "country": "ES",
-    "dateFrom": "2005-08-03",
-    "dateUntil": "2005-07-25",
+    "dateFrom": "2005-07-25",
+    "dateUntil": "2005-08-03",
     "description": "",
     "flights": 0
   }, {
