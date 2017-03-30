@@ -16,7 +16,7 @@ app.use(allowCrossDomain);
 
 app.get('/trips', (req, res) => {
   trips.allCountries = getUniqueCountries();
-  trips.next = trips.next || getNextTrip();
+  trips.next = getNextTrip();
   trips.total = trips.total || {
     trips: calculateTotalTrips(),
     flights: calculateTotalFlights(),
