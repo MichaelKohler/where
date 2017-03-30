@@ -1,8 +1,0 @@
-{
-    "watch": [
-        "index.js",
-        "trips.json",
-        "package.json"
-    ],
-    "logging-enabled": true
-}

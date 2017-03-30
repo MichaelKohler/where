@@ -23,8 +23,8 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0",
     "extract-text-webpack-plugin": "~1.0.1",
-    "hot-reload": "^3.0.2",
     "node-sass": "~3.13.0",
+    "pm2": "^2.4.2",
     "react-hot-loader": "~3.0.0-beta.6",
     "sass-loader": "~4.0.2",
     "style-loader": "~0.13.1",
@@ -34,7 +34,8 @@
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js -p",
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors --inline",
-    "start:server": "cd server && ../node_modules/hot-reload/bin/hot-reload index.js",
+    "start:server": "pm2 start server/index.js --name where --watch",
+    "stop:server": "pm2 stop where --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Kohler",
