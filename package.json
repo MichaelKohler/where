@@ -36,6 +36,7 @@
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors --inline",
     "start:server": "pm2 start server/index.js --name where --watch",
     "stop:server": "pm2 stop where --watch",
+    "logs:server": "pm2 logs where",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Kohler",
