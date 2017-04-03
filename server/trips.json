@@ -1,11 +1,25 @@
 {
   "visited": [{
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-04-28",
+    "dateUntil": "2017-05-01",
+    "description": "",
+    "flights": 2
+  },{
     "destination": "Santorini",
     "country": "GR",
     "dateFrom": "2017-04-13",
     "dateUntil": "2017-04-18",
     "description": "",
     "flights": 6
+  }, {
+    "destination": "Zwickau",
+    "country": "DE",
+    "dateFrom": "2017-04-09",
+    "dateUntil": "2017-04-13",
+    "description": "Work",
+    "flights": 0
   }, {
     "destination": "Berlin",
     "country": "DE",
@@ -600,14 +614,14 @@
     "dateFrom": "1998-09-23",
     "dateUntil": "1998-09-30",
     "description": "",
-    "flights": 0
+    "flights": 2
   }, {
     "destination": "Gran Canaria",
     "country": "ES",
     "dateFrom": "1997-09-24",
     "dateUntil": "1997-10-01",
     "description": "",
-    "flights": 0
+    "flights": 2
   }, {
     "destination": "Bern",
     "country": "CH",
