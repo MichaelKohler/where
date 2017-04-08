@@ -2,11 +2,18 @@
   "visited": [{
     "destination": "Berlin",
     "country": "DE",
+    "dateFrom": "2017-06-16",
+    "dateUntil": "2017-06-19",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
     "dateFrom": "2017-04-28",
     "dateUntil": "2017-05-01",
     "description": "",
     "flights": 2
-  },{
+  }, {
     "destination": "Santorini",
     "country": "GR",
     "dateFrom": "2017-04-13",
@@ -17,7 +24,7 @@
     "destination": "Zwickau",
     "country": "DE",
     "dateFrom": "2017-04-09",
-    "dateUntil": "2017-04-13",
+    "dateUntil": "2017-04-12",
     "description": "Work",
     "flights": 0
   }, {
