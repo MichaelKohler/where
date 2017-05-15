@@ -1,5 +1,12 @@
 {
   "visited": [{
+    "destination": "Milos",
+    "country": "GR",
+    "dateFrom": "2017-09-01",
+    "dateUntil": "2017-09-11",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "San Francisco",
     "country": "US",
     "dateFrom": "2017-06-25",
@@ -18,7 +25,7 @@
     "country": "DE",
     "dateFrom": "2017-05-12",
     "dateUntil": "2017-05-15",
-    "description": "NOT BOOKED YET",
+    "description": "",
     "flights": 2
   }, {
     "destination": "Berlin",
