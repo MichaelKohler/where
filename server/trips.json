@@ -7,11 +7,32 @@
     "description": "",
     "flights": 2
   }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-08-11",
+    "dateUntil": "2017-08-14",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-08-04",
+    "dateUntil": "2017-08-07",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-07-14",
+    "dateUntil": "2017-07-17",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "San Francisco",
     "country": "US",
     "dateFrom": "2017-06-25",
     "dateUntil": "2017-07-02",
-    "description": "",
+    "description": "All Hands",
     "flights": 4
   }, {
     "destination": "Berlin",
