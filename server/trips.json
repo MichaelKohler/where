@@ -1,5 +1,19 @@
 {
   "visited": [{
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-09-22",
+    "dateUntil": "2017-09-25",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-09-15",
+    "dateUntil": "2017-09-18",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "Milos",
     "country": "GR",
     "dateFrom": "2017-09-01",
