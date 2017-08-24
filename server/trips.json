@@ -1,5 +1,12 @@
 {
   "visited": [{
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2017-10-27",
+    "dateUntil": "2017-10-30",
+    "description": "Mozilla Festival",
+    "flights": 2
+  }, {
     "destination": "Berlin",
     "country": "DE",
     "dateFrom": "2017-09-22",
