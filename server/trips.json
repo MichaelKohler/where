@@ -1,5 +1,19 @@
 {
   "visited": [{
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-11-24",
+    "dateUntil": "2017-11-27",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2017-11-03",
+    "dateUntil": "2017-11-06",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "London",
     "country": "UK",
     "dateFrom": "2017-10-27",
