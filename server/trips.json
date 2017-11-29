@@ -1,5 +1,26 @@
 {
   "visited": [{
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2018-02-15",
+    "dateUntil": "2018-02-19",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2018-02-09",
+    "dateUntil": "2018-02-12",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2018-01-12",
+    "dateUntil": "2018-01-15",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "Athens",
     "country": "GR",
     "dateFrom": "2017-12-22",
