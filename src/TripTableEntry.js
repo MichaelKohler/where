@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './scss/triptable.scss';
 
 class TripTableEntry extends React.Component {
   render() {
-    const trip = this.props.trip;
+    const { trip } = this.props;
     const classes = [];
     const today = new Date();
     trip.dateFrom = new Date(trip.dateFrom);
@@ -31,13 +32,13 @@ TripTableEntry.defaultProps = {
 };
 
 TripTableEntry.propTypes = {
-  trip: React.PropTypes.shape({
-    destination: React.PropTypes.string,
-    country: React.PropTypes.string,
-    dateFrom: React.PropTypes.string,
-    dateUntil: React.PropTypes.string,
-    description: React.PropTypes.string,
-    flights: React.PropTypes.number
+  trip: PropTypes.shape({
+    destination: PropTypes.string,
+    country: PropTypes.string,
+    dateFrom: PropTypes.string,
+    dateUntil: PropTypes.string,
+    description: PropTypes.string,
+    flights: PropTypes.number
   }),
 };
 

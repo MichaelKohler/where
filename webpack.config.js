@@ -18,23 +18,23 @@ module.exports = {
   },
   devtool: getDevTool(),
   module: {
-    preLoaders: [{
-      enforce: 'pre',
-      test: /\.js$/,
-      exclude: /node_modules/,
-      loader: 'eslint-loader'
-    }],
-    loaders: [{
-      test: /\.js$/,
-      exclude: /(node_modules|bower_components)/,
-      loader: 'babel',
-      query: {
-          presets: ['react', 'es2015']
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        enforce: 'pre',
+        loader: 'eslint-loader'
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      },
+      {
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract('css-loader!sass-loader')
       }
-    }, {
-      test: /\.scss$/,
-      loader: ExtractTextPlugin.extract('css!sass')
-    }]
+    ]
   },
   plugins: [
     new ExtractTextPlugin('dist/main.css', { allChunks: true }),

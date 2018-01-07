@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './scss/widget.scss';
 
 class TotalWidget extends React.Component {
@@ -37,12 +38,12 @@ TotalWidget.defaultProps = {
 };
 
 TotalWidget.propTypes = {
-  totals: React.PropTypes.shape({
-    trips: React.PropTypes.number,
-    flights: React.PropTypes.number,
-    countries: React.PropTypes.number,
+  totals: PropTypes.shape({
+    trips: PropTypes.number,
+    flights: PropTypes.number,
+    countries: PropTypes.number,
   }),
-  color: React.PropTypes.string,
+  color: PropTypes.string,
 };
 
 export default TotalWidget;

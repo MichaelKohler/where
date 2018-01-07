@@ -1,5 +1,6 @@
 /* global google document */
 import React from 'react';
+import PropTypes from 'prop-types';
 import './scss/map.scss';
 
 class Map extends React.Component {
@@ -48,8 +49,8 @@ Map.defaultProps = {
 };
 
 Map.propTypes = {
-  countries: React.PropTypes.array,
-  selector: React.PropTypes.string
+  countries: PropTypes.array,
+  selector: PropTypes.string
 };
 
 export default Map;

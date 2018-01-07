@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import TripTableEntry from './TripTableEntry';
 import './scss/triptable.scss';
 
 class TripTable extends React.Component {
   render() {
-    const trips = this.props.trips;
+    const { trips } = this.props;
 
     return (
       <table className="trips">
@@ -31,7 +32,7 @@ TripTable.defaultProps = {
 };
 
 TripTable.propTypes = {
-  trips: React.PropTypes.array,
+  trips: PropTypes.array,
 };
 
 export default TripTable;
