@@ -1,0 +1,24 @@
+---
+dist: trusty
+language: node_js
+node_js:
+  - 8
+install: true
+cache:
+  directories:
+  - node_modules
+script:
+  - npm install
+  - npm run build
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: ./deploy.sh
+  on:
+    branch: master
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+    recipients:
+      - me@michaelkohler.info
