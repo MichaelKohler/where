@@ -6,5 +6,5 @@ chmod 600 travis_deploy_rsa
 ssh-add travis_deploy_rsa
 ssh-keyscan -H me.michaelkohler.info >> ~/.ssh/known_hosts
 
-rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/* travis@me.michaelkohler.info:/var/www/html/where/
+rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist/* travis@me.michaelkohler.info:/var/www/html/where/
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/server/* travis@me.michaelkohler.info:/var/www/html/where/server/
