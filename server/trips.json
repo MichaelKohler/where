@@ -123,7 +123,7 @@
     "country": "US",
     "dateFrom": "2017-06-25",
     "dateUntil": "2017-07-02",
-    "description": "All Hands",
+    "description": "Mozilla All Hands",
     "flights": 4
   }, {
     "destination": "Berlin",
@@ -214,7 +214,7 @@
     "country": "US",
     "dateFrom": "2016-12-03",
     "dateUntil": "2016-12-18",
-    "description": "All Hands",
+    "description": "Mozilla All Hands",
     "flights": 6
   }, {
     "destination": "Berlin",
@@ -242,7 +242,7 @@
     "country": "GB",
     "dateFrom": "2016-06-11",
     "dateUntil": "2016-06-18",
-    "description": "All Hands",
+    "description": "Mozilla All Hands",
     "flights": 2
   }, {
     "destination": "Brighton",
@@ -305,7 +305,7 @@
     "country": "US",
     "dateFrom": "2015-12-06",
     "dateUntil": "2015-12-12",
-    "description": "All Hands",
+    "description": "Mozilla All Hands",
     "flights": 4
   }, {
     "destination": "London",
@@ -347,7 +347,7 @@
     "country": "CA",
     "dateFrom": "2015-06-20",
     "dateUntil": "2015-06-27",
-    "description": "All Hands",
+    "description": "Mozilla All Hands",
     "flights": 4
   }, {
     "destination": "Berlin",
