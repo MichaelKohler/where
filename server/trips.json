@@ -2,6 +2,20 @@
   "visited": [{
     "destination": "Berlin",
     "country": "DE",
+    "dateFrom": "2018-03-30",
+    "dateUntil": "",
+    "description": "Move to Berlin",
+    "flights": 0
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
+    "dateFrom": "2018-03-23",
+    "dateUntil": "2018-03-27",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Berlin",
+    "country": "DE",
     "dateFrom": "2018-03-09",
     "dateUntil": "2018-03-12",
     "description": "",
