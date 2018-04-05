@@ -1,5 +1,26 @@
 {
   "visited": [{
+    "destination": "Greece",
+    "country": "GR",
+    "dateFrom": "2018-08-25",
+    "dateUntil": "2018-09-10",
+    "description": "All Hands?",
+    "flights": 2
+  }, {
+    "destination": "San Francisco",
+    "country": "US",
+    "dateFrom": "2018-06-10",
+    "dateUntil": "2018-06-16",
+    "description": "All Hands?",
+    "flights": 2
+  }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2018-04-30",
+    "dateUntil": "2018-05-02",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "Berlin",
     "country": "DE",
     "dateFrom": "2018-03-30",
