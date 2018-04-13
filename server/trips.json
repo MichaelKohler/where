@@ -4,14 +4,14 @@
     "country": "GR",
     "dateFrom": "2018-08-25",
     "dateUntil": "2018-09-10",
-    "description": "All Hands?",
+    "description": "",
     "flights": 2
   }, {
     "destination": "San Francisco",
     "country": "US",
     "dateFrom": "2018-06-10",
     "dateUntil": "2018-06-16",
-    "description": "All Hands?",
+    "description": "All Hands",
     "flights": 2
   }, {
     "destination": "Bern",
