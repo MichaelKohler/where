@@ -16,6 +16,13 @@
   }, {
     "destination": "Bern",
     "country": "CH",
+    "dateFrom": "2018-06-04",
+    "dateUntil": "2018-06-06",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Bern",
+    "country": "CH",
     "dateFrom": "2018-04-30",
     "dateUntil": "2018-05-02",
     "description": "",
