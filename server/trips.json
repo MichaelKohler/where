@@ -7,12 +7,19 @@
     "description": "",
     "flights": 2
   }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2018-07-04",
+    "dateUntil": "2018-07-07",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "San Francisco",
     "country": "US",
     "dateFrom": "2018-06-10",
     "dateUntil": "2018-06-16",
     "description": "All Hands",
-    "flights": 2
+    "flights": 4
   }, {
     "destination": "Bern",
     "country": "CH",
