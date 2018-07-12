@@ -1,9 +1,23 @@
 {
   "visited": [{
+    "destination": "London",
+    "country": "UK",
+    "dateFrom": "2018-10-26",
+    "dateUntil": "2018-10-29",
+    "description": "MozFest",
+    "flights": 2
+  }, {
     "destination": "Greece",
     "country": "GR",
     "dateFrom": "2018-08-25",
     "dateUntil": "2018-09-10",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2018-08-01",
+    "dateUntil": "2018-08-05",
     "description": "",
     "flights": 2
   }, {
