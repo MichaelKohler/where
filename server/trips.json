@@ -4,15 +4,15 @@
     "country": "GR",
     "dateFrom": "2018-12-26",
     "dateUntil": "2019-01-08",
-    "description": "not definitive yet",
+    "description": "",
     "flights": 2
   }, {
     "destination": "Bern",
     "country": "CH",
-    "dateFrom": "2018-12-20",
+    "dateFrom": "2018-12-22",
     "dateUntil": "2018-12-26",
-    "description": "not definitive yet",
-    "flights": 2
+    "description": "",
+    "flights": 1
   }, {
     "destination": "London",
     "country": "UK",
