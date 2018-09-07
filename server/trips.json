@@ -21,6 +21,13 @@
     "description": "MozFest",
     "flights": 2
   }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2018-10-15",
+    "dateUntil": "2018-10-17",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "Greece",
     "country": "GR",
     "dateFrom": "2018-08-25",
