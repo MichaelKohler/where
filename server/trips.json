@@ -14,6 +14,13 @@
     "description": "",
     "flights": 1
   }, {
+    "destination": "Orlando",
+    "country": "US",
+    "dateFrom": "2018-12-02",
+    "dateUntil": "2018-12-08",
+    "description": "Mozilla All Hands",
+    "flights": 4
+  }, {
     "destination": "London",
     "country": "UK",
     "dateFrom": "2018-10-26",
