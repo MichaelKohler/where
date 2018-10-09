@@ -1,5 +1,19 @@
 {
   "visited": [{
+    "destination": "Rome",
+    "country": "IT",
+    "dateFrom": "2019-02-15",
+    "dateUntil": "2019-02-17",
+    "description": "Not booked yet",
+    "flights": 2
+  }, {
+    "destination": "Brussels",
+    "country": "BE",
+    "dateFrom": "2019-02-01",
+    "dateUntil": "2019-02-03",
+    "description": "FOSDEM - Not booked yet",
+    "flights": 2
+  }, {
     "destination": "Athens",
     "country": "GR",
     "dateFrom": "2018-12-26",
