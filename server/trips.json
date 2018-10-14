@@ -23,17 +23,17 @@
   }, {
     "destination": "Bern",
     "country": "CH",
-    "dateFrom": "2018-12-12",
-    "dateUntil": "2018-12-14",
-    "description": "",
-    "flights": 2
-  }, {
-    "destination": "Bern",
-    "country": "CH",
     "dateFrom": "2018-12-22",
     "dateUntil": "2018-12-26",
     "description": "",
     "flights": 1
+  }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2018-12-12",
+    "dateUntil": "2018-12-14",
+    "description": "",
+    "flights": 2
   }, {
     "destination": "Orlando",
     "country": "US",
