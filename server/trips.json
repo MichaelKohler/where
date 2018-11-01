@@ -42,6 +42,13 @@
     "description": "Mozilla All Hands",
     "flights": 4
   }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2018-11-16",
+    "dateUntil": "2018-11-19",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "London",
     "country": "UK",
     "dateFrom": "2018-10-26",
