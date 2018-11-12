@@ -10,8 +10,8 @@
     "destination": "Brussels",
     "country": "BE",
     "dateFrom": "2019-02-01",
-    "dateUntil": "2019-02-03",
-    "description": "FOSDEM - Not booked yet",
+    "dateUntil": "2019-02-04",
+    "description": "FOSDEM",
     "flights": 2
   }, {
     "destination": "Athens",
