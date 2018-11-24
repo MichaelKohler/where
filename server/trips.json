@@ -1,5 +1,19 @@
 {
   "visited": [{
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2019-05-02",
+    "dateUntil": "2019-05-07",
+    "description": "Uphill Conf",
+    "flights": 2
+  }, {
+    "destination": "Athens",
+    "country": "GR",
+    "dateFrom": "2019-04-26",
+    "dateUntil": "2019-05-02",
+    "description": "",
+    "flights": 1
+  }, {
     "destination": "Rome",
     "country": "IT",
     "dateFrom": "2019-02-15",
