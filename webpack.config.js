@@ -14,7 +14,7 @@ module.exports = {
     main: './src/main.js'
   },
   output: {
-    filename: './dist/[name].js'
+    filename: './[name].js'
   },
   devtool: getDevTool(),
   module: {
@@ -32,17 +32,21 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: ['css-loader', 'sass-loader']
+        use: [
+          process.env.NODE_ENV !== 'production' ? 'style-loader' : MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader'
+        ]
       }
     ]
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'dist/main.css',
+      filename: '[name].css',
     }),
     new CopyWebpackPlugin([
-      { from: 'robots.txt', to: 'dist/' },
-      { from: 'index.html', to: 'dist/' },
+      { from: 'robots.txt', to: '.' },
+      { from: 'index.html', to: '.' },
     ], { copyUnmodified: true })
   ]
 };
