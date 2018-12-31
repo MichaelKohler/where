@@ -1,4 +1,4 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 function getDevTool() {
@@ -32,12 +32,14 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('css-loader!sass-loader')
+        use: ['css-loader', 'sass-loader']
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin('dist/main.css', { allChunks: true }),
+    new MiniCssExtractPlugin({
+      filename: 'dist/main.css',
+    }),
     new CopyWebpackPlugin([
       { from: 'robots.txt', to: 'dist/' },
       { from: 'index.html', to: 'dist/' },
