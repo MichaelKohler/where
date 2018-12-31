@@ -4,18 +4,23 @@ import './scss/widget.scss';
 
 class NextTripWidget extends React.Component {
   render() {
-    const { nextTrip } = this.props;
+    const { nextTrip, color } = this.props;
     let sectionClasses = 'card next';
 
-    if (this.props.color) {
-      sectionClasses += ` ${this.props.color}`;
+    if (color) {
+      sectionClasses += ` ${color}`;
     }
 
     return (
       <section className={sectionClasses}>
-        <h1>Next trip: {nextTrip.destination}</h1>
+        <h1>
+          Next trip:
+          &nbsp;
+          {nextTrip.destination}
+        </h1>
         <p>
-          {new Date(nextTrip.dateFrom).toDateString()}&nbsp;-&nbsp;
+          {new Date(nextTrip.dateFrom).toDateString()}
+          &nbsp;-&nbsp;
           {new Date(nextTrip.dateUntil).toDateString()}
         </p>
         { nextTrip.description ? <p>{nextTrip.description}</p> : '' }

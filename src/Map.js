@@ -9,13 +9,14 @@ class Map extends React.Component {
   }
 
   createMap() {
-    this.map = new google.maps.Map(document.getElementById(this.props.selector), {
+    const { selector, countries } = this.props;
+    this.map = new google.maps.Map(document.getElementById(selector), {
       center: { lat: 33.626829, lng: 18.379068 },
       zoom: 2,
       disableDefaultUI: true
     });
 
-    const whereQuery = `ISO_2DIGIT IN ('${this.props.countries.join('\', \'')}')`;
+    const whereQuery = `ISO_2DIGIT IN ('${countries.join('\', \'')}')`;
     const layer = new google.maps.FusionTablesLayer({
       query: {
         select: 'geometry',
@@ -37,8 +38,10 @@ class Map extends React.Component {
   }
 
   render() {
+    const { selector } = this.props;
+
     return (
-      <section id={this.props.selector} />
+      <section id={selector} />
     );
   }
 }

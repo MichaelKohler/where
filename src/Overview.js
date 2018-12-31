@@ -38,33 +38,36 @@ class Overview extends React.Component {
   }
 
   render() {
+    const { trips } = this.state;
     return (
       <div className="container">
-        { this.loading ? <span>Loading..</span> :
-        <section>
-          <div className="row">
-            <NextTripWidget
-              color="brand"
-              nextTrip={this.state.trips.next}
-            />
-            <TotalWidget
-              color="brand"
-              totals={this.state.trips.total}
-            />
-          </div>
-          <Map
-            countries={this.state.trips.allCountries}
-            selector="visitedMap"
-          />
-          <TripTable
-            trips={this.state.trips.visited}
-          />
-          <h1>Wishlist</h1>
-          <Map
-            countries={this.state.trips.wishlist}
-            selector="wishlistMap"
-          />
-        </section>
+        { this.loading ? <span>Loading..</span>
+          : (
+            <section>
+              <div className="row">
+                <NextTripWidget
+                  color="brand"
+                  nextTrip={trips.next}
+                />
+                <TotalWidget
+                  color="brand"
+                  totals={trips.total}
+                />
+              </div>
+              <Map
+                countries={trips.allCountries}
+                selector="visitedMap"
+              />
+              <TripTable
+                trips={trips.visited}
+              />
+              <h1>Wishlist</h1>
+              <Map
+                countries={trips.wishlist}
+                selector="wishlistMap"
+              />
+            </section>
+          )
         }
       </div>
     );
