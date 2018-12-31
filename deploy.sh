@@ -9,10 +9,17 @@ chmod 600 travis_deploy_rsa
 ssh-add travis_deploy_rsa
 ssh-keyscan -H me.michaelkohler.info >> ~/.ssh/known_hosts
 
+echo "Content to deploy.."
+ls -al $TRAVIS_BUILD_DIR/dist/
+
+echo "Deploying.."
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist/index.html travis@me.michaelkohler.info:$SERVER_PATH/
+rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist/robots.txt travis@me.michaelkohler.info:$SERVER_PATH/
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist/* travis@me.michaelkohler.info:$SERVER_PATH/dist/
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/server/* travis@me.michaelkohler.info:$SERVER_PATH/server/
 
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/package.json travis@me.michaelkohler.info:$SERVER_PATH/server/
 ssh travis@me.michaelkohler.info 'cd /var/www/html/where/server/ && npm install'
-ssh travis@me.michaelkohler.info 'cd /var/www/html/where/dist && mv robots.txt ../ && mv index.html ../'
+
+echo "After deploy.."
+ssh travis@me.michaelkohler.info 'cd /var/www/html/where/ && ls -al && cd dist && ls -al'
