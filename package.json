@@ -4,7 +4,7 @@
   "description": "Where is Michael?",
   "main": "main.js",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
+    "@babel/preset-env": "^7.2.3",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
     "prop-types": "^15.6.2",
@@ -13,10 +13,10 @@
     "webpack-cli": "^3.1.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^2.1.0",
     "eslint": "^5.11.1",
@@ -36,7 +36,7 @@
   },
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js --mode development",
-    "start": "webpack-dev-server --hot --progress --colors --inline",
+    "start": "webpack-dev-server --hot --progress --colors --inline --mode development",
     "start:server": "pm2 start server/index.js --name where --watch",
     "stop:server": "pm2 stop where --watch",
     "logs:server": "pm2 logs where",
