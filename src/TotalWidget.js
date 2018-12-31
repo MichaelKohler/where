@@ -21,6 +21,10 @@ class TotalWidget extends React.Component {
           <p>total flights</p>
         </div>
         <div className="number">
+          <h2>{totals.uniqueDestinations}</h2>
+          <p>unique cities</p>
+        </div>
+        <div className="number">
           <h2>{totals.countries}</h2>
           <p>total countries</p>
         </div>

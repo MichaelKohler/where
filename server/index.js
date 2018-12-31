@@ -20,7 +20,8 @@ app.get('/trips', (req, res) => {
   trips.total = trips.total || {
     trips: calculateTotalTrips(),
     flights: calculateTotalFlights(),
-    countries: trips.allCountries.length
+    uniqueDestinations: calculateUniqueDestinations(),
+    countries: trips.allCountries.length,
   };
 
   res.send(trips);
@@ -56,6 +57,17 @@ const calculateTotalTrips = () => {
   const totalTrips = trips.visited.length + trips.otherVisited.length;
 
   return totalTrips;
+};
+
+const calculateUniqueDestinations = () => {
+  const destinations = [];
+
+  _.each(trips.visited, (trip) => {
+    destinations.push(trip.destination);
+  });
+
+  const uniqueDestinations = _.uniq(destinations);
+  return uniqueDestinations.length;
 };
 
 const calculateTotalFlights = () => {
