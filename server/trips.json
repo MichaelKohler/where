@@ -42,6 +42,13 @@
     "description": "",
     "flights": 2
   }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2019-01-14",
+    "dateUntil": "2019-01-15",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "Athens",
     "country": "GR",
     "dateFrom": "2018-12-26",
