@@ -37,7 +37,8 @@ TotalWidget.defaultProps = {
   totals: {
     trips: 0,
     flights: 0,
-    countries: 0
+    countries: 0,
+    uniqueDestinations: 0,
   },
   color: ''
 };
@@ -47,6 +48,7 @@ TotalWidget.propTypes = {
     trips: PropTypes.number,
     flights: PropTypes.number,
     countries: PropTypes.number,
+    uniqueDestinations: PropTypes.number,
   }),
   color: PropTypes.string,
 };

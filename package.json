@@ -37,9 +37,6 @@
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js --mode production",
     "start": "webpack-dev-server --hot --progress --colors --inline --mode development",
-    "start:server": "pm2 start server/index.js --name where --watch",
-    "stop:server": "pm2 stop where --watch",
-    "logs:server": "pm2 logs where",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Kohler",
