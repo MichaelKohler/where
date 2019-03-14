@@ -2,30 +2,29 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './scss/triptable.scss';
 
-class TripTableEntry extends React.Component {
-  render() {
-    const { trip } = this.props;
-    const classes = [];
-    const today = new Date();
-    trip.dateFrom = new Date(trip.dateFrom);
-    trip.dateUntil = new Date(trip.dateUntil);
+const TripTableEntry = ({ trip }) => {
+  const classes = [];
+  const today = new Date();
+  const tripToShow = Object.assign({}, trip, {
+    dateFrom: new Date(trip.dateFrom),
+    dateUntil: new Date(trip.dateUntil),
+  });
 
-    if (trip.dateFrom > today) {
-      classes.push('future');
-    }
-
-    return (
-      <tr className={classes}>
-        <td>{trip.dateFrom.toDateString()}</td>
-        <td>{trip.dateUntil.toDateString()}</td>
-        <td>{trip.destination}</td>
-        <td>{trip.country}</td>
-        <td>{trip.description}</td>
-        <td>{trip.flights}</td>
-      </tr>
-    );
+  if (tripToShow.dateFrom > today) {
+    classes.push('future');
   }
-}
+
+  return (
+    <tr className={classes}>
+      <td>{tripToShow.dateFrom.toDateString()}</td>
+      <td>{tripToShow.dateUntil.toDateString()}</td>
+      <td>{tripToShow.destination}</td>
+      <td>{tripToShow.country}</td>
+      <td>{tripToShow.description}</td>
+      <td>{tripToShow.flights}</td>
+    </tr>
+  );
+};
 
 TripTableEntry.defaultProps = {
   trip: {}
