@@ -1,5 +1,47 @@
 {
   "visited": [{
+    "destination": "Kalamata",
+    "country": "GR",
+    "dateFrom": "2019-08-31",
+    "dateUntil": "2019-09-09",
+    "description": "",
+    "flights": 0
+  }, {
+    "destination": "Kefalonia",
+    "country": "GR",
+    "dateFrom": "2019-08-24",
+    "dateUntil": "2019-08-31",
+    "description": "",
+    "flights": 0
+  }, {
+    "destination": "Athens",
+    "country": "GR",
+    "dateFrom": "2019-08-22",
+    "dateUntil": "2019-08-24",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "New York",
+    "country": "US",
+    "dateFrom": "2019-06-30",
+    "dateUntil": "2019-06-30",
+    "description": "",
+    "flights": 0
+  }, {
+    "destination": "Alaska",
+    "country": "US",
+    "dateFrom": "2019-06-21",
+    "dateUntil": "2019-06-29",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Whistler",
+    "country": "CS",
+    "dateFrom": "2019-06-15",
+    "dateUntil": "2019-06-21",
+    "description": "Mozilla All Hands",
+    "flights": 2
+  }, {
     "destination": "Bern",
     "country": "CH",
     "dateFrom": "2019-05-02",
