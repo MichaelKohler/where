@@ -36,10 +36,17 @@
     "flights": 2
   }, {
     "destination": "Whistler",
-    "country": "CS",
-    "dateFrom": "2019-06-15",
+    "country": "CA",
+    "dateFrom": "2019-06-17",
     "dateUntil": "2019-06-21",
     "description": "Mozilla All Hands",
+    "flights": 0
+  }, {
+    "destination": "Vancouver",
+    "country": "CA",
+    "dateFrom": "2019-06-15",
+    "dateUntil": "2019-06-16",
+    "description": "",
     "flights": 2
   }, {
     "destination": "Bern",
