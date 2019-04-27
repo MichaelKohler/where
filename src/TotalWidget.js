@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'; // eslint-disable-line import/no-extraneous-dependencies
 import './scss/widget.scss';
 
 const TotalWidget = ({ color, totals }) => {
