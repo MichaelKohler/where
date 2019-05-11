@@ -58,6 +58,13 @@
   }, {
     "destination": "Bern",
     "country": "CH",
+    "dateFrom": "2019-06-03",
+    "dateUntil": "2019-06-07",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Bern",
+    "country": "CH",
     "dateFrom": "2019-05-02",
     "dateUntil": "2019-05-07",
     "description": "Uphill Conf",
