@@ -21,6 +21,13 @@
     "description": "",
     "flights": 2
   }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2019-08-03",
+    "dateUntil": "2019-08-06",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "New York",
     "country": "US",
     "dateFrom": "2019-06-30",
