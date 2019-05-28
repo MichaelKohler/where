@@ -1,3 +1,5 @@
+@import '../scss/_variables';
+
 .container {
   margin: 10px 50px 100px 50px;
 }
@@ -5,6 +7,11 @@
 .row {
   display: flex;
   justify-content: space-between;
+}
+
+.widget-row {
+  background-color: $brand-color;
+  margin: 10px 0;
 }
 
 h1 {

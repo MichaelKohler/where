@@ -1,11 +1,9 @@
 @import '../scss/_variables';
 
 .card {
-  background-color: $brand-color;
   color: $font-color-light;
   min-width: 43%;
   padding: 20px 40px 20px 40px;
-  margin: 10px 0 10px 0;
 
   &.light {
     background-color: $light-brand-color;
@@ -33,13 +31,12 @@
   &.next {
     display: flex;
     flex-flow: column;
-    text-align: center;
-    align-items: center;
     justify-content: center;
 
     h1 {
       font-size: 2em;
       margin: 0;
+      text-align: left;
     }
   }
 
