@@ -18,7 +18,7 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "copy-webpack-plugin": "^5.0.1",
-    "css-loader": "^2.1.1",
+    "css-loader": "^3.0.0",
     "eslint": "^5.15.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-loader": "^2.1.2",
