@@ -28,6 +28,13 @@
     "description": "",
     "flights": 2
   }, {
+    "destination": "Draper",
+    "country": "US",
+    "dateFrom": "2019-07-10",
+    "dateUntil": "2019-07-18",
+    "description": "Control4",
+    "flights": 6
+  }, {
     "destination": "New York",
     "country": "US",
     "dateFrom": "2019-06-30",
