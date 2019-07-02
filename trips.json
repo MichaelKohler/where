@@ -42,6 +42,13 @@
     "description": "Layover",
     "flights": 2
   }, {
+    "destination": "Denali",
+    "country": "US",
+    "dateFrom": "2019-06-27",
+    "dateUntil": "2019-06-27",
+    "description": "Glacier Landing",
+    "flights": 2
+  }, {
     "destination": "Anchorage",
     "country": "US",
     "dateFrom": "2019-06-24",
