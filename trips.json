@@ -1,5 +1,19 @@
 {
   "visited": [{
+    "destination": "Athens",
+    "country": "GR",
+    "dateFrom": "2019-12-27",
+    "dateUntil": "2020-01-07",
+    "description": "",
+    "flights": 2
+  }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2019-12-24",
+    "dateUntil": "2019-12-27",
+    "description": "",
+    "flights": 1
+  }, {
     "destination": "Kalamata",
     "country": "GR",
     "dateFrom": "2019-08-31",
