@@ -42,12 +42,19 @@
     "description": "",
     "flights": 2
   }, {
+    "destination": "Chicago O'Hare",
+    "country": "US",
+    "dateFrom": "2019-07-18",
+    "dateUntil": "2019-07-19",
+    "description": "Layover",
+    "flights": 2
+  }, {
     "destination": "Draper",
     "country": "US",
     "dateFrom": "2019-07-10",
     "dateUntil": "2019-07-18",
     "description": "Control4",
-    "flights": 6
+    "flights": 4
   }, {
     "destination": "New York",
     "country": "US",
