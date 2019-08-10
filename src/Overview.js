@@ -10,9 +10,9 @@ import trips from '../trips.json';
 
 class Overview extends React.Component {
   render() {
-    const destinations = trips.visited.map(trip => trip.destination);
+    const destinations = trips.visited.map((trip) => trip.destination);
     const uniqueDestinations = Array.from(new Set(destinations));
-    const countries = trips.visited.map(trip => trip.country);
+    const countries = trips.visited.map((trip) => trip.country);
     const allCountries = countries.concat(trips.otherVisited);
     const uniqueCountries = Array.from(new Set(allCountries));
 
@@ -39,34 +39,35 @@ class Overview extends React.Component {
 
     return (
       <div className="container">
-        { this.loading ? <span>Loading..</span>
-          : (
-            <section>
-              <div className="row widget-row">
-                <NextTripWidget
-                  color="brand"
-                  nextTrip={nextTrip}
+        {
+          this.loading ? <span>Loading..</span>
+            : (
+              <section>
+                <div className="row widget-row">
+                  <NextTripWidget
+                    color="brand"
+                    nextTrip={nextTrip}
+                  />
+                  <TotalWidget
+                    color="brand"
+                    totals={totals}
+                  />
+                </div>
+                <Map
+                  countries={uniqueCountries}
+                  selector="visitedMap"
                 />
-                <TotalWidget
-                  color="brand"
-                  totals={totals}
+                <TripTable
+                  trips={trips.visited}
                 />
-              </div>
-              <Map
-                countries={uniqueCountries}
-                selector="visitedMap"
-              />
-              <TripTable
-                trips={trips.visited}
-              />
-              <h1>Wishlist</h1>
-              <Map
-                countries={trips.wishlist}
-                selector="wishlistMap"
-              />
-            </section>
-          )
-        }
+                <h1>Wishlist</h1>
+                <Map
+                  countries={trips.wishlist}
+                  selector="wishlistMap"
+                />
+              </section>
+            )
+      }
       </div>
     );
   }

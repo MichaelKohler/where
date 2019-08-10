@@ -5,10 +5,11 @@ import './scss/triptable.scss';
 const TripTableEntry = ({ trip }) => {
   const classes = [];
   const today = new Date();
-  const tripToShow = Object.assign({}, trip, {
+  const tripToShow = {
+    ...trip,
     dateFrom: new Date(trip.dateFrom),
     dateUntil: new Date(trip.dateUntil),
-  });
+  };
 
   if (tripToShow.dateFrom > today) {
     classes.push('future');
