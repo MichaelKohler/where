@@ -21,6 +21,13 @@
     "description": "",
     "flights": 2
   }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2019-09-16",
+    "dateUntil": "2019-09-18",
+    "description": "",
+    "flights": 2
+  }, {
     "destination": "Kalamata",
     "country": "GR",
     "dateFrom": "2019-08-31",
