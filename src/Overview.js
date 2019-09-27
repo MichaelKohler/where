@@ -60,11 +60,6 @@ class Overview extends React.Component {
                 <TripTable
                   trips={trips.visited}
                 />
-                <h1>Wishlist</h1>
-                <Map
-                  countries={trips.wishlist}
-                  selector="wishlistMap"
-                />
               </section>
             )
       }
