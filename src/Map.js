@@ -1,4 +1,4 @@
-/* global google document */
+/* global mapboxgl document */
 import React from 'react';
 import PropTypes from 'prop-types'; // eslint-disable-line import/no-extraneous-dependencies
 import './scss/map.scss';
@@ -9,32 +9,24 @@ class Map extends React.Component {
   }
 
   createMap() {
-    const { selector, countries } = this.props;
-    this.map = new google.maps.Map(document.getElementById(selector), {
-      center: { lat: 33.626829, lng: 18.379068 },
-      zoom: 2,
-      disableDefaultUI: true
+    const { selector, trips } = this.props;
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGFlbGtvaGxlcjE5OTEiLCJhIjoiY2pldmRiYWttMGZtazMzbDdueng4czNiayJ9.SjcGAbnqYRx9I5oq4VAljg';
+    const map = new mapboxgl.Map({
+      container: selector,
+      style: 'mapbox://styles/mapbox/light-v10',
+      center: [8, 30],
+      zoom: 1.6,
     });
 
-    const whereQuery = `ISO_2DIGIT IN ('${countries.join('\', \'')}')`;
-    const layer = new google.maps.FusionTablesLayer({
-      query: {
-        select: 'geometry',
-        from: '1N2LBk4JHwWpOY4d9fobIn27lfnZ5MDy-NoqqRpk',
-        where: whereQuery
-      },
-      map: this.map,
-      suppressInfoWindows: true
+    trips.forEach((destination) => {
+      const marker = document.createElement('div');
+      marker.className = 'marker';
+
+      new mapboxgl.Marker(marker)
+        .setLngLat([destination.lng, destination.lat])
+        .addTo(map);
     });
-
-    const styles = [{
-      polygonOptions: {
-        fillColor: '#4e79bc',
-        fillOpacity: 0.7
-      }
-    }];
-
-    layer.set('styles', styles);
   }
 
   render() {
@@ -47,12 +39,12 @@ class Map extends React.Component {
 }
 
 Map.defaultProps = {
-  countries: [],
+  trips: [],
   selector: ''
 };
 
 Map.propTypes = {
-  countries: PropTypes.array,
+  trips: PropTypes.array,
   selector: PropTypes.string
 };
 

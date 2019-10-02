@@ -10,16 +10,24 @@ import trips from '../trips.json';
 
 class Overview extends React.Component {
   render() {
-    const destinations = trips.visited.map((trip) => trip.destination);
-    const uniqueDestinations = Array.from(new Set(destinations));
     const countries = trips.visited.map((trip) => trip.country);
     const allCountries = countries.concat(trips.otherVisited);
     const uniqueCountries = Array.from(new Set(allCountries));
 
+    const uniqueDestinationsCoordinates = trips.visited.reduce((acc, trip) => {
+      const existingEntry = acc.find((existing) => existing.destination === trip.destination);
+
+      if (!existingEntry) {
+        acc.push(trip);
+      }
+
+      return acc;
+    }, []);
+
     const totals = {
       trips: trips.visited.length + trips.otherVisited.length,
       flights: trips.visited.reduce((flights, trip) => flights + trip.flights, 0),
-      uniqueDestinations: uniqueDestinations.length,
+      uniqueDestinations: uniqueDestinationsCoordinates.length,
       countries: uniqueCountries.length,
     };
 
@@ -54,7 +62,7 @@ class Overview extends React.Component {
                   />
                 </div>
                 <Map
-                  countries={uniqueCountries}
+                  trips={uniqueDestinationsCoordinates}
                   selector="visitedMap"
                 />
                 <TripTable
