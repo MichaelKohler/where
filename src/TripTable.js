@@ -17,7 +17,7 @@ const TripTable = ({ trips }) => {
         </tr>
       </thead>
       <tbody>
-        { trips.map((trip) => { return <TripTableEntry trip={trip} />; }) }
+        { trips.map((trip) => { return <TripTableEntry key={trip.dateFrom} trip={trip} />; }) }
       </tbody>
     </table>
   );
