@@ -49,3 +49,23 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .card {
+    padding: 20px;
+
+    &.vertical {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .number {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        min-width: 40vw;
+      }
+    }
+  }
+}

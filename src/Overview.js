@@ -51,7 +51,7 @@ class Overview extends React.Component {
           this.loading ? <span>Loading..</span>
             : (
               <section>
-                <div className="row widget-row">
+                <div className="widget-row">
                   <NextTripWidget
                     color="brand"
                     nextTrip={nextTrip}
