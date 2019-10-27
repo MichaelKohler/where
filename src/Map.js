@@ -19,6 +19,8 @@ class Map extends React.Component {
       zoom: 1.6,
     });
 
+    map.dragPan.disable();
+
     trips.forEach((destination) => {
       const marker = document.createElement('div');
       marker.className = 'marker';
