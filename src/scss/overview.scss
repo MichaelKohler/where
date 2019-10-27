@@ -17,3 +17,9 @@
 h1 {
   text-align: center;
 }
+
+@media (max-width: 601px) {
+  .container {
+    margin: 0;
+  }
+}
