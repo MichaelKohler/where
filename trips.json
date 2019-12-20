@@ -11,8 +11,8 @@
   }, {
     "destination": "Brussels",
     "country": "BE",
-    "dateFrom": "2020-02-03",
-    "dateUntil": "2020-02-01",
+    "dateFrom": "2020-02-01",
+    "dateUntil": "2020-02-03",
     "description": "FOSDEM",
     "flights": 2,
     "lat": 50.84,
@@ -20,8 +20,8 @@
   }, {
     "destination": "Berlin",
     "country": "BE",
-    "dateFrom": "2020-01-31",
-    "dateUntil": "2020-01-28",
+    "dateFrom": "2020-01-28",
+    "dateUntil": "2020-01-31",
     "description": "All Hands",
     "flights": 2,
     "lat": 52.51,
