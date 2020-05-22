@@ -10,7 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack-cli": "^3.3.11",
-    "snyk": "^1.323.0"
+    "snyk": "^1.323.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
