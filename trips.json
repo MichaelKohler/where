@@ -1395,6 +1395,15 @@
     "lat": 36.77,
     "lng": 31.42
   }, {
+    "destination": "Prague",
+    "country": "CZ",
+    "dateFrom": "2010-07-29",
+    "dateUntil": "2010-08-02",
+    "description": "",
+    "flights": 0,
+    "lat": 50.08,
+    "lng": 14.42
+  }, {
     "destination": "Rome",
     "country": "IT",
     "dateFrom": "2010-03-01",
@@ -1477,7 +1486,6 @@
     "lng": 7.43
   }],
   "otherVisited": [
-    "CZ",
     "LI"
   ]
 }
