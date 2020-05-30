@@ -22,7 +22,6 @@ const TripTableEntry = ({ trip }) => {
       <td>{tripToShow.destination}</td>
       <td>{tripToShow.country}</td>
       <td>{tripToShow.description}</td>
-      <td>{tripToShow.flights}</td>
     </tr>
   );
 };

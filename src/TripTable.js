@@ -13,7 +13,6 @@ const TripTable = ({ trips }) => {
           <th>Destination</th>
           <th>Country</th>
           <th>Description</th>
-          <th>Flights</th>
         </tr>
       </thead>
       <tbody>

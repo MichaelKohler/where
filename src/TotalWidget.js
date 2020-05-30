@@ -15,10 +15,6 @@ const TotalWidget = ({ color, totals }) => {
         <p>total trips</p>
       </div>
       <div className="number">
-        <h2>{totals.flights}</h2>
-        <p>total flights</p>
-      </div>
-      <div className="number">
         <h2>{totals.uniqueDestinations}</h2>
         <p>unique cities</p>
       </div>
@@ -33,7 +29,6 @@ const TotalWidget = ({ color, totals }) => {
 TotalWidget.defaultProps = {
   totals: {
     trips: 0,
-    flights: 0,
     countries: 0,
     uniqueDestinations: 0,
   },
@@ -43,7 +38,6 @@ TotalWidget.defaultProps = {
 TotalWidget.propTypes = {
   totals: PropTypes.shape({
     trips: PropTypes.number,
-    flights: PropTypes.number,
     countries: PropTypes.number,
     uniqueDestinations: PropTypes.number,
   }),

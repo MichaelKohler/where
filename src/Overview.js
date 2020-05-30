@@ -26,7 +26,6 @@ class Overview extends React.Component {
 
     const totals = {
       trips: trips.visited.length + trips.otherVisited.length,
-      flights: trips.visited.reduce((flights, trip) => flights + trip.flights, 0),
       uniqueDestinations: uniqueDestinationsCoordinates.length,
       countries: uniqueCountries.length,
     };
