@@ -44,9 +44,11 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
-    new CopyWebpackPlugin([
-      { from: 'robots.txt', to: '.' },
-      { from: 'index.html', to: '.' },
-    ], { copyUnmodified: true })
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'robots.txt', to: '.' },
+        { from: 'index.html', to: '.' },
+      ],
+    }),
   ]
 };
