@@ -9,7 +9,7 @@
     "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "snyk": "^1.336.0",
+    "snyk": "^1.337.0",
     "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
