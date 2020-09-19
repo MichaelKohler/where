@@ -1,14 +1,5 @@
 {
   "visited": [{
-    "destination": "Cluj-Napoca",
-    "country": "RO",
-    "dateFrom": "2021-04-15",
-    "dateUntil": "2021-04-16",
-    "description": "JSHeroes",
-    "flights": 4,
-    "lat": 46.77,
-    "lng": 23.59
-  }, {
     "destination": "Bern",
     "country": "CH",
     "dateFrom": "2020-07-30",
