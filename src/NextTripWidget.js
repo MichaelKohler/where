@@ -3,8 +3,11 @@ import PropTypes from 'prop-types'; // eslint-disable-line import/no-extraneous-
 import './scss/widget.scss';
 
 const NextTripWidget = ({ nextTrip, color }) => {
-  let sectionClasses = 'card next';
+  if (Object.keys(nextTrip).length === 0) {
+    return '';
+  }
 
+  let sectionClasses = 'card next';
   if (color) {
     sectionClasses += ` ${color}`;
   }
