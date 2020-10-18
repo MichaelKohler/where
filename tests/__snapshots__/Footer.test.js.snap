@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render footer 1`] = `
+<footer>
+  <p>
+    Michael Kohler - Data accurate from 2013 onwards
+  </p>
+</footer>
+`;
