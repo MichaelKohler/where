@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly shallow render TripTableEntry - future 1`] = `
+<tr
+  className={
+    Array [
+      "future",
+    ]
+  }
+>
+  <td>
+    Sat Feb 02 2999
+  </td>
+  <td>
+    Sun Feb 03 2999
+  </td>
+  <td>
+    Bern
+  </td>
+  <td>
+    Switzerland
+  </td>
+  <td>
+    Foo
+  </td>
+</tr>
+`;
+
+exports[`should correctly shallow render TripTableEntry - past - no description 1`] = `
+<tr
+  className={Array []}
+>
+  <td>
+    Sun Feb 02 2020
+  </td>
+  <td>
+    Mon Feb 03 2020
+  </td>
+  <td>
+    Bern
+  </td>
+  <td>
+    Switzerland
+  </td>
+  <td />
+</tr>
+`;
+
+exports[`should correctly shallow render TripTableEntry - past 1`] = `
+<tr
+  className={Array []}
+>
+  <td>
+    Sun Feb 02 2020
+  </td>
+  <td>
+    Mon Feb 03 2020
+  </td>
+  <td>
+    Bern
+  </td>
+  <td>
+    Switzerland
+  </td>
+  <td>
+    Foo
+  </td>
+</tr>
+`;

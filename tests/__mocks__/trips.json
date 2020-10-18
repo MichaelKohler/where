@@ -1,0 +1,51 @@
+{
+  "visited": [{
+    "destination": "Athens",
+    "country": "GR",
+    "dateFrom": "2021-03-11",
+    "dateUntil": "2021-03-28",
+    "description": "",
+    "flights": 2,
+    "lat": 38,
+    "lng": 23.7
+  }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2020-07-30",
+    "dateUntil": "2020-08-03",
+    "description": "",
+    "flights": 2,
+    "lat": 46.94,
+    "lng": 7.43
+  }, {
+    "destination": "Athens",
+    "country": "GR",
+    "dateFrom": "2020-07-03",
+    "dateUntil": "2020-07-29",
+    "description": "",
+    "flights": 2,
+    "lat": 38,
+    "lng": 23.7
+  }, {
+    "destination": "Bern",
+    "country": "CH",
+    "dateFrom": "2020-02-18",
+    "dateUntil": "2020-02-20",
+    "description": "",
+    "flights": 2,
+    "lat": 46.94,
+    "lng": 7.43
+  }, {
+    "destination": "Prague",
+    "country": "CZ",
+    "dateFrom": "2020-02-14",
+    "dateUntil": "2020-02-16",
+    "description": "",
+    "flights": 0,
+    "lat": 50.08,
+    "lng": 14.42
+  }],
+  "otherVisited": [
+    "LI"
+  ]
+}

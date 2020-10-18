@@ -50,7 +50,8 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx}"
+      "src/**/*.{js,jsx}",
+      "!src/main.js"
     ],
     "coverageReporters": [
       "lcov",
@@ -58,15 +59,18 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 0,
-        "functions": 0,
-        "lines": 0,
-        "statements": 0
+        "branches": 81,
+        "functions": 77,
+        "lines": 83,
+        "statements": 84
       }
     },
     "transform": {
       "^.+\\.js$": "babel-jest",
       "\\.scss$": "<rootDir>/tests/file-transformer.js"
+    },
+    "moduleNameMapper": {
+      "trips.json": "<rootDir>/tests/__mocks__/trips.json"
     },
     "setupFiles": [
       "<rootDir>/tests/test-setup.js"

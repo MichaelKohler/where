@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly shallow render TotalWidget 1`] = `
+<section
+  className="card vertical blue"
+>
+  <div
+    className="number"
+  >
+    <h2>
+      200
+    </h2>
+    <p>
+      total trips
+    </p>
+  </div>
+  <div
+    className="number"
+  >
+    <h2>
+      15
+    </h2>
+    <p>
+      unique cities
+    </p>
+  </div>
+  <div
+    className="number"
+  >
+    <h2>
+      20
+    </h2>
+    <p>
+      total countries
+    </p>
+  </div>
+</section>
+`;

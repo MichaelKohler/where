@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly shallow render TripTable 1`] = `
+<table
+  className="trips"
+>
+  <thead>
+    <tr>
+      <th>
+        From
+      </th>
+      <th>
+        Until
+      </th>
+      <th>
+        Destination
+      </th>
+      <th>
+        Country
+      </th>
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <TripTableEntry
+      key="2020-02-02"
+      trip={
+        Object {
+          "dateFrom": "2020-02-02",
+        }
+      }
+    />
+    <TripTableEntry
+      key="2020-02-03"
+      trip={
+        Object {
+          "dateFrom": "2020-02-03",
+        }
+      }
+    />
+    <TripTableEntry
+      key="2020-02-04"
+      trip={
+        Object {
+          "dateFrom": "2020-02-04",
+        }
+      }
+    />
+    <TripTableEntry
+      key="2020-02-05"
+      trip={
+        Object {
+          "dateFrom": "2020-02-05",
+        }
+      }
+    />
+  </tbody>
+</table>
+`;
