@@ -43,7 +43,7 @@
   },
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js --mode production",
-    "start": "webpack-dev-server --hot --progress --colors --inline --mode development",
+    "start": "webpack serve --mode development --env development",
     "eslint": "eslint src tests",
     "test": "npm run eslint && jest"
   },
