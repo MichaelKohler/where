@@ -37,6 +37,10 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.(eot|woff|woff2|svg|ttf|webp)$/,
+        loader: 'file-loader'
       }
     ]
   },
@@ -46,6 +50,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
+        { from: 'src/fonts/', to: './fonts' },
         { from: 'robots.txt', to: '.' },
         { from: 'index.html', to: '.' },
       ],
