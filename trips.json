@@ -9,15 +9,6 @@
     "lat": 38,
     "lng": 23.7
   }, {
-    "destination": "Athens",
-    "country": "GR",
-    "dateFrom": "2021-03-11",
-    "dateUntil": "2021-03-28",
-    "description": "",
-    "flights": 2,
-    "lat": 38,
-    "lng": 23.7
-  }, {
     "destination": "Bern",
     "country": "CH",
     "dateFrom": "2020-07-30",
