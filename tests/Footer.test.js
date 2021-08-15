@@ -1,9 +1,9 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 
 import Footer from '../src/Footer';
 
 test('should correctly render footer', () => {
-  const component = shallow(<Footer />);
-  expect(component).toMatchSnapshot();
+  const { container } = render(<Footer />);
+  expect(container.firstChild).toMatchSnapshot();
 });

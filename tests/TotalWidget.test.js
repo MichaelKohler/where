@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 
 import TotalWidget from '../src/TotalWidget';
 
@@ -9,6 +9,6 @@ test('should correctly shallow render TotalWidget', () => {
     countries: 20,
     uniqueDestinations: 15,
   };
-  const component = shallow(<TotalWidget totals={totals} color="blue" />);
-  expect(component).toMatchSnapshot();
+  const { container } = render(<TotalWidget totals={totals} color="blue" />);
+  expect(container.firstChild).toMatchSnapshot();
 });

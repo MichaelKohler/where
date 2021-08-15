@@ -2,118 +2,163 @@
 
 exports[`should correctly shallow render Overview 1`] = `
 <div
-  className="container"
+  class="container"
 >
   <div
-    className="widget-row"
+    class="widget-row"
   >
-    <NextTripWidget
-      color="brand"
-      nextTrip={Object {}}
-    />
-    <TotalWidget
-      color="brand"
-      totals={
-        Object {
-          "countries": 3,
-          "trips": 5,
-          "uniqueDestinations": 3,
-        }
-      }
-    />
+    
+    <section
+      class="card vertical brand"
+    >
+      <div
+        class="number"
+      >
+        <h2>
+          5
+        </h2>
+        <p>
+          total trips
+        </p>
+      </div>
+      <div
+        class="number"
+      >
+        <h2>
+          3
+        </h2>
+        <p>
+          unique cities
+        </p>
+      </div>
+      <div
+        class="number"
+      >
+        <h2>
+          3
+        </h2>
+        <p>
+          total countries
+        </p>
+      </div>
+    </section>
   </div>
-  <Map
-    selector="visitedMap"
-    trips={
-      Array [
-        Object {
-          "country": "GR",
-          "dateFrom": "2021-03-11",
-          "dateUntil": "2021-03-28",
-          "description": "",
-          "destination": "Athens",
-          "flights": 2,
-          "lat": 38,
-          "lng": 23.7,
-        },
-        Object {
-          "country": "CH",
-          "dateFrom": "2020-07-30",
-          "dateUntil": "2020-08-03",
-          "description": "",
-          "destination": "Bern",
-          "flights": 2,
-          "lat": 46.94,
-          "lng": 7.43,
-        },
-        Object {
-          "country": "CZ",
-          "dateFrom": "2020-02-14",
-          "dateUntil": "2020-02-16",
-          "description": "",
-          "destination": "Prague",
-          "flights": 0,
-          "lat": 50.08,
-          "lng": 14.42,
-        },
-      ]
-    }
-  />
-  <TripTable
-    trips={
-      Array [
-        Object {
-          "country": "GR",
-          "dateFrom": "2021-03-11",
-          "dateUntil": "2021-03-28",
-          "description": "",
-          "destination": "Athens",
-          "flights": 2,
-          "lat": 38,
-          "lng": 23.7,
-        },
-        Object {
-          "country": "CH",
-          "dateFrom": "2020-07-30",
-          "dateUntil": "2020-08-03",
-          "description": "",
-          "destination": "Bern",
-          "flights": 2,
-          "lat": 46.94,
-          "lng": 7.43,
-        },
-        Object {
-          "country": "GR",
-          "dateFrom": "2020-07-03",
-          "dateUntil": "2020-07-29",
-          "description": "",
-          "destination": "Athens",
-          "flights": 2,
-          "lat": 38,
-          "lng": 23.7,
-        },
-        Object {
-          "country": "CH",
-          "dateFrom": "2020-02-18",
-          "dateUntil": "2020-02-20",
-          "description": "",
-          "destination": "Bern",
-          "flights": 2,
-          "lat": 46.94,
-          "lng": 7.43,
-        },
-        Object {
-          "country": "CZ",
-          "dateFrom": "2020-02-14",
-          "dateUntil": "2020-02-16",
-          "description": "",
-          "destination": "Prague",
-          "flights": 0,
-          "lat": 50.08,
-          "lng": 14.42,
-        },
-      ]
-    }
-  />
+  <section
+    id="visitedMap"
+  >
+    <div
+      style="height: 90vh; width: 100%;"
+    />
+  </section>
+  <table
+    class="trips"
+  >
+    <thead>
+      <tr>
+        <th>
+          From
+        </th>
+        <th>
+          Until
+        </th>
+        <th>
+          Destination
+        </th>
+        <th>
+          Country
+        </th>
+        <th>
+          Description
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class=""
+      >
+        <td>
+          Thu Mar 11 2021
+        </td>
+        <td>
+          Sun Mar 28 2021
+        </td>
+        <td>
+          Athens
+        </td>
+        <td>
+          GR
+        </td>
+        <td />
+      </tr>
+      <tr
+        class=""
+      >
+        <td>
+          Thu Jul 30 2020
+        </td>
+        <td>
+          Mon Aug 03 2020
+        </td>
+        <td>
+          Bern
+        </td>
+        <td>
+          CH
+        </td>
+        <td />
+      </tr>
+      <tr
+        class=""
+      >
+        <td>
+          Fri Jul 03 2020
+        </td>
+        <td>
+          Wed Jul 29 2020
+        </td>
+        <td>
+          Athens
+        </td>
+        <td>
+          GR
+        </td>
+        <td />
+      </tr>
+      <tr
+        class=""
+      >
+        <td>
+          Tue Feb 18 2020
+        </td>
+        <td>
+          Thu Feb 20 2020
+        </td>
+        <td>
+          Bern
+        </td>
+        <td>
+          CH
+        </td>
+        <td />
+      </tr>
+      <tr
+        class=""
+      >
+        <td>
+          Fri Feb 14 2020
+        </td>
+        <td>
+          Sun Feb 16 2020
+        </td>
+        <td>
+          Prague
+        </td>
+        <td>
+          CZ
+        </td>
+        <td />
+      </tr>
+    </tbody>
+  </table>
 </div>
 `;

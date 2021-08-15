@@ -2,7 +2,7 @@
 
 exports[`should correctly shallow render TripTable 1`] = `
 <table
-  className="trips"
+  class="trips"
 >
   <thead>
     <tr>
@@ -24,38 +24,58 @@ exports[`should correctly shallow render TripTable 1`] = `
     </tr>
   </thead>
   <tbody>
-    <TripTableEntry
-      key="2020-02-02"
-      trip={
-        Object {
-          "dateFrom": "2020-02-02",
-        }
-      }
-    />
-    <TripTableEntry
-      key="2020-02-03"
-      trip={
-        Object {
-          "dateFrom": "2020-02-03",
-        }
-      }
-    />
-    <TripTableEntry
-      key="2020-02-04"
-      trip={
-        Object {
-          "dateFrom": "2020-02-04",
-        }
-      }
-    />
-    <TripTableEntry
-      key="2020-02-05"
-      trip={
-        Object {
-          "dateFrom": "2020-02-05",
-        }
-      }
-    />
+    <tr
+      class=""
+    >
+      <td>
+        Sun Feb 02 2020
+      </td>
+      <td>
+        Invalid Date
+      </td>
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr
+      class=""
+    >
+      <td>
+        Mon Feb 03 2020
+      </td>
+      <td>
+        Invalid Date
+      </td>
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr
+      class=""
+    >
+      <td>
+        Tue Feb 04 2020
+      </td>
+      <td>
+        Invalid Date
+      </td>
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr
+      class=""
+    >
+      <td>
+        Wed Feb 05 2020
+      </td>
+      <td>
+        Invalid Date
+      </td>
+      <td />
+      <td />
+      <td />
+    </tr>
   </tbody>
 </table>
 `;

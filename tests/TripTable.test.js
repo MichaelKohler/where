@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 
 import TripTable from '../src/TripTable';
 
@@ -13,6 +13,6 @@ test('should correctly shallow render TripTable', () => {
   }, {
     dateFrom: '2020-02-05',
   }];
-  const component = shallow(<TripTable trips={trips} />);
-  expect(component).toMatchSnapshot();
+  const { container } = render(<TripTable trips={trips} />);
+  expect(container.firstChild).toMatchSnapshot();
 });

@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 
 import TripTableEntry from '../src/TripTableEntry';
 
@@ -11,8 +11,14 @@ test('should correctly shallow render TripTableEntry - past', () => {
     country: 'Switzerland',
     description: 'Foo',
   };
-  const component = shallow(<TripTableEntry trip={trip} />);
-  expect(component).toMatchSnapshot();
+  const { container } = render(
+    <table>
+      <tbody>
+        <TripTableEntry trip={trip} />
+      </tbody>
+    </table>,
+  );
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 test('should correctly shallow render TripTableEntry - past - no description', () => {
@@ -22,8 +28,14 @@ test('should correctly shallow render TripTableEntry - past - no description', (
     destination: 'Bern',
     country: 'Switzerland',
   };
-  const component = shallow(<TripTableEntry trip={trip} />);
-  expect(component).toMatchSnapshot();
+  const { container } = render(
+    <table>
+      <tbody>
+        <TripTableEntry trip={trip} />
+      </tbody>
+    </table>,
+  );
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 test('should correctly shallow render TripTableEntry - future', () => {
@@ -34,6 +46,12 @@ test('should correctly shallow render TripTableEntry - future', () => {
     country: 'Switzerland',
     description: 'Foo',
   };
-  const component = shallow(<TripTableEntry trip={trip} />);
-  expect(component).toMatchSnapshot();
+  const { container } = render(
+    <table>
+      <tbody>
+        <TripTableEntry trip={trip} />
+      </tbody>
+    </table>,
+  );
+  expect(container.firstChild).toMatchSnapshot();
 });

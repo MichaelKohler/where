@@ -2,10 +2,10 @@
 
 exports[`should correctly shallow render TotalWidget 1`] = `
 <section
-  className="card vertical blue"
+  class="card vertical blue"
 >
   <div
-    className="number"
+    class="number"
   >
     <h2>
       200
@@ -15,7 +15,7 @@ exports[`should correctly shallow render TotalWidget 1`] = `
     </p>
   </div>
   <div
-    className="number"
+    class="number"
   >
     <h2>
       15
@@ -25,7 +25,7 @@ exports[`should correctly shallow render TotalWidget 1`] = `
     </p>
   </div>
   <div
-    className="number"
+    class="number"
   >
     <h2>
       20

@@ -2,7 +2,170 @@
 
 exports[`should correctly shallow render App 1`] = `
 <div>
-  <Overview />
-  <Footer />
+  <div
+    class="container"
+  >
+    <div
+      class="widget-row"
+    >
+      
+      <section
+        class="card vertical brand"
+      >
+        <div
+          class="number"
+        >
+          <h2>
+            5
+          </h2>
+          <p>
+            total trips
+          </p>
+        </div>
+        <div
+          class="number"
+        >
+          <h2>
+            3
+          </h2>
+          <p>
+            unique cities
+          </p>
+        </div>
+        <div
+          class="number"
+        >
+          <h2>
+            3
+          </h2>
+          <p>
+            total countries
+          </p>
+        </div>
+      </section>
+    </div>
+    <section
+      id="visitedMap"
+    >
+      <div
+        style="height: 90vh; width: 100%;"
+      />
+    </section>
+    <table
+      class="trips"
+    >
+      <thead>
+        <tr>
+          <th>
+            From
+          </th>
+          <th>
+            Until
+          </th>
+          <th>
+            Destination
+          </th>
+          <th>
+            Country
+          </th>
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class=""
+        >
+          <td>
+            Thu Mar 11 2021
+          </td>
+          <td>
+            Sun Mar 28 2021
+          </td>
+          <td>
+            Athens
+          </td>
+          <td>
+            GR
+          </td>
+          <td />
+        </tr>
+        <tr
+          class=""
+        >
+          <td>
+            Thu Jul 30 2020
+          </td>
+          <td>
+            Mon Aug 03 2020
+          </td>
+          <td>
+            Bern
+          </td>
+          <td>
+            CH
+          </td>
+          <td />
+        </tr>
+        <tr
+          class=""
+        >
+          <td>
+            Fri Jul 03 2020
+          </td>
+          <td>
+            Wed Jul 29 2020
+          </td>
+          <td>
+            Athens
+          </td>
+          <td>
+            GR
+          </td>
+          <td />
+        </tr>
+        <tr
+          class=""
+        >
+          <td>
+            Tue Feb 18 2020
+          </td>
+          <td>
+            Thu Feb 20 2020
+          </td>
+          <td>
+            Bern
+          </td>
+          <td>
+            CH
+          </td>
+          <td />
+        </tr>
+        <tr
+          class=""
+        >
+          <td>
+            Fri Feb 14 2020
+          </td>
+          <td>
+            Sun Feb 16 2020
+          </td>
+          <td>
+            Prague
+          </td>
+          <td>
+            CZ
+          </td>
+          <td />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    <p>
+      Michael Kohler - Data accurate from 2013 onwards
+    </p>
+  </footer>
 </div>
 `;

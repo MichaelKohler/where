@@ -1,53 +1,50 @@
-/* global mapboxgl */
+/* eslint-disable react/style-prop-object */
+
 import React from 'react';
 import PropTypes from 'prop-types'; // eslint-disable-line import/no-extraneous-dependencies
+import ReactMapboxGl, { Feature, Layer } from 'react-mapbox-gl';
+
 import './scss/map.scss';
 
-class Map extends React.Component {
-  componentDidMount() {
-    this.createMap();
-  }
+const Map = ({ trips }) => {
+  const MapBox = ReactMapboxGl({
+    accessToken: 'pk.eyJ1IjoibWljaGFlbGtvaGxlcjE5OTEiLCJhIjoiY2pldmRiYWttMGZtazMzbDdueng4czNiayJ9.SjcGAbnqYRx9I5oq4VAljg'
+  });
 
-  createMap() {
-    const { selector, trips } = this.props;
-
-    mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGFlbGtvaGxlcjE5OTEiLCJhIjoiY2pldmRiYWttMGZtazMzbDdueng4czNiayJ9.SjcGAbnqYRx9I5oq4VAljg';
-    const map = new mapboxgl.Map({
-      container: selector,
-      style: 'mapbox://styles/mapbox/light-v10',
-      center: [8, 30],
-      zoom: 1.6,
-    });
-
-    map.dragPan.disable();
-
-    trips.forEach((destination) => {
-      const marker = document.createElement('div');
-      marker.className = 'marker';
-
-      new mapboxgl.Marker(marker)
-        .setLngLat([destination.lng, destination.lat])
-        .addTo(map);
-    });
-  }
-
-  render() {
-    const { selector } = this.props;
-
-    return (
-      <section id={selector} />
-    );
-  }
-}
+  return (
+    <section id="visitedMap">
+      <MapBox
+        style="mapbox://styles/mapbox/light-v10"
+        zoom={[2]}
+        center={[8, 30]}
+        containerStyle={{
+          height: '90vh',
+          width: '100%'
+        }}
+      >
+        <Layer
+          type="circle"
+          id="marker"
+          paint={{ 'circle-radius': 4, 'circle-color': '#1f3352' }}
+        >
+          { trips.map((trip) => (
+            <Feature
+              key={`${trip.destination}-${trip.dateFrom}`}
+              coordinates={[trip.lng, trip.lat]}
+            />
+          ))}
+        </Layer>
+      </MapBox>
+    </section>
+  );
+};
 
 Map.defaultProps = {
   trips: [],
-  selector: ''
 };
 
 Map.propTypes = {
   trips: PropTypes.array,
-  selector: PropTypes.string
 };
 
 export default Map;

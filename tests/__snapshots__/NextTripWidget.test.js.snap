@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should correctly render NextTripWidget empty if no data 1`] = `""`;
+exports[`should correctly render NextTripWidget empty if no data 1`] = ``;
 
 exports[`should correctly render NextTripWidget with description 1`] = `
 <section
-  className="card next blue"
+  class="card next blue"
 >
   <h1>
     Next trip:  
@@ -23,7 +23,7 @@ exports[`should correctly render NextTripWidget with description 1`] = `
 
 exports[`should correctly render NextTripWidget without description 1`] = `
 <section
-  className="card next blue"
+  class="card next blue"
 >
   <h1>
     Next trip:  
@@ -34,5 +34,6 @@ exports[`should correctly render NextTripWidget without description 1`] = `
      - 
     Mon Feb 03 2020
   </p>
+  
 </section>
 `;

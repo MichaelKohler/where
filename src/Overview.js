@@ -38,7 +38,6 @@ const Overview = () => {
       </div>
       <Map
         trips={uniqueDestinations}
-        selector="visitedMap"
       />
       <TripTable
         trips={filteredTrips}

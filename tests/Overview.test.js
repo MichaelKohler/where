@@ -1,9 +1,9 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 
 import Overview from '../src/Overview';
 
 test('should correctly shallow render Overview', () => {
-  const component = shallow(<Overview />);
-  expect(component).toMatchSnapshot();
+  const { container } = render(<Overview />);
+  expect(container.firstChild).toMatchSnapshot();
 });
