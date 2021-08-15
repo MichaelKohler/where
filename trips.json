@@ -846,6 +846,15 @@
     "lat": 52.51,
     "lng": 13.40
   }, {
+    "destination": "Vaduz",
+    "country": "LI",
+    "dateFrom": "2016-04-10",
+    "dateUntil": "2016-04-10",
+    "description": "",
+    "flights": 0,
+    "lat": 47.14,
+    "lng": 9.52
+  }, {
     "destination": "Athens",
     "country": "GR",
     "dateFrom": "2016-03-25",
