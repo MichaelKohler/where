@@ -2,21 +2,39 @@
   "visited": [{
     "destination": "Athens",
     "country": "GR",
+    "dateFrom": "2021-09-07",
+    "dateUntil": "2021-09-13",
+    "description": "",
+    "flights": 1,
+    "lat": 38,
+    "lng": 23.7
+  }, {
+    "destination": "Karpathos",
+    "country": "GR",
+    "dateFrom": "2021-09-01",
+    "dateUntil": "2021-09-07  ",
+    "description": "",
+    "flights": 2,
+    "lat": 35.50,
+    "lng": 27.21
+  }, {
+    "destination": "Kalamata",
+    "country": "GR",
+    "dateFrom": "2021-08-21",
+    "dateUntil": "2021-09-01",
+    "description": "",
+    "flights": 1,
+    "lat": 37.05,
+    "lng": 22.11
+  }, {
+    "destination": "Kalamata",
+    "country": "GR",
     "dateFrom": "2021-05-13",
     "dateUntil": "2021-05-30",
     "description": "",
     "flights": 2,
-    "lat": 38,
-    "lng": 23.7
-  }, {
-    "destination": "Athens",
-    "country": "GR",
-    "dateFrom": "2021-08-21",
-    "dateUntil": "2021-09-13",
-    "description": "",
-    "flights": 2,
-    "lat": 38,
-    "lng": 23.7
+    "lat": 37.05,
+    "lng": 22.11
   }, {
     "destination": "Bern",
     "country": "CH",
