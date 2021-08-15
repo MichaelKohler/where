@@ -1,4 +1,4 @@
-/* global mapboxgl document */
+/* global mapboxgl */
 import React from 'react';
 import PropTypes from 'prop-types'; // eslint-disable-line import/no-extraneous-dependencies
 import './scss/map.scss';
