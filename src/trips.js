@@ -1,5 +1,5 @@
 export function getTripData(trips) {
-  const pastTrips = trips.visited.filter((trip) => {
+  const pastTrips = trips.filter((trip) => {
     const now = new Date();
     const tripStartDate = new Date(trip.dateFrom);
     return tripStartDate < now;
@@ -30,7 +30,7 @@ export function getNextTrip(trips) {
   let nextTrip = {};
   const today = new Date();
 
-  trips.visited.forEach((trip) => {
+  trips.forEach((trip) => {
     const startDate = new Date(trip.dateFrom);
 
     if (startDate > today) {
@@ -42,7 +42,7 @@ export function getNextTrip(trips) {
 }
 
 export function filterTripsByParams(trips, filters) {
-  const filteredVisited = trips.visited.filter((trip) => {
+  const filtered = trips.filter((trip) => {
     const tripFromYear = new Date(trip.dateFrom).getFullYear();
     const tripUntilYear = new Date(trip.dateUntil).getFullYear();
     const isMatchingYear = filters.year
@@ -55,8 +55,5 @@ export function filterTripsByParams(trips, filters) {
     return isMatchingYear && isMatchingCountry;
   });
 
-  return {
-    ...trips,
-    visited: filteredVisited,
-  };
+  return filtered;
 }

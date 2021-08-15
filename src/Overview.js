@@ -10,7 +10,7 @@ import './scss/overview.scss';
 import allTrips from '../trips.json';
 
 const Overview = () => {
-  allTrips.visited.sort((a, b) => new Date(b.dateFrom) - new Date(a.dateFrom));
+  allTrips.sort((a, b) => new Date(b.dateFrom) - new Date(a.dateFrom));
 
   const searchParams = new URLSearchParams(window.location.search);
   const filters = {
@@ -41,7 +41,7 @@ const Overview = () => {
         selector="visitedMap"
       />
       <TripTable
-        trips={filteredTrips.visited}
+        trips={filteredTrips}
       />
     </div>
   );
