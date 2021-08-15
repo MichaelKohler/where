@@ -21,6 +21,9 @@ const Map = ({ trips }) => {
           height: '90vh',
           width: '100%'
         }}
+        dragPan={false}
+        dragRotate={false}
+        touchZoomRotate={false}
       >
         <Layer
           type="circle"
