@@ -15,8 +15,8 @@ exports[`should correctly shallow render Overview 1`] = `
       color="brand"
       totals={
         Object {
-          "countries": 4,
-          "trips": 6,
+          "countries": 3,
+          "trips": 5,
           "uniqueDestinations": 3,
         }
       }
