@@ -6,9 +6,9 @@ import Map from './Map';
 
 import './scss/overview.scss';
 
-import trips from '../trips.json';
+import allTrips from '../trips.json';
 
-const Overview = () => {
+function getTripData(trips) {
   const pastTrips = trips.visited.filter((trip) => {
     const now = new Date();
     const tripStartDate = new Date(trip.dateFrom);
@@ -34,19 +34,29 @@ const Overview = () => {
     countries: uniqueCountries.length,
   };
 
+  return [uniqueDestinations, totals];
+}
+
+function getNextTrip(trips) {
   let nextTrip = {};
   const today = new Date();
-  trips.visited
-    .sort((a, b) => {
-      return new Date(b.dateFrom) - new Date(a.dateFrom);
-    })
-    .forEach((trip) => {
-      const startDate = new Date(trip.dateFrom);
 
-      if (startDate > today) {
-        nextTrip = trip;
-      }
-    });
+  trips.visited.forEach((trip) => {
+    const startDate = new Date(trip.dateFrom);
+
+    if (startDate > today) {
+      nextTrip = trip;
+    }
+  });
+
+  return nextTrip;
+}
+
+const Overview = () => {
+  allTrips.visited.sort((a, b) => new Date(b.dateFrom) - new Date(a.dateFrom));
+
+  const nextTrip = getNextTrip(allTrips);
+  const [uniqueDestinations, totals] = getTripData(allTrips);
 
   return (
     <div className="container">
@@ -65,7 +75,7 @@ const Overview = () => {
         selector="visitedMap"
       />
       <TripTable
-        trips={trips.visited}
+        trips={allTrips.visited}
       />
     </div>
   );
