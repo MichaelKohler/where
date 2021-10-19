@@ -1,4 +1,13 @@
 [{
+  "destination": "Rügen",
+  "country": "DE",
+  "dateFrom": "2021-10-15",
+  "dateUntil": "2021-10-19",
+  "description": "",
+  "flights": 1,
+  "lat": 54.30,
+  "lng": 13.68
+}, {
   "destination": "Athens",
   "country": "GR",
   "dateFrom": "2021-09-07",
