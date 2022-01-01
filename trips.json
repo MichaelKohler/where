@@ -1,4 +1,13 @@
 [{
+  "destination": "Teupitz",
+  "country": "DE",
+  "dateFrom": "2021-12-26",
+  "dateUntil": "2021-12-29",
+  "description": "",
+  "flights": 0,
+  "lat": 52.13,
+  "lng": 13.61
+}, { 
   "destination": "Bern",
   "country": "CH",
   "dateFrom": "2021-11-28",
