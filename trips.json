@@ -1,4 +1,31 @@
-[{
+[{ 
+  "destination": "Bern",
+  "country": "CH",
+  "dateFrom": "2022-05-13",
+  "dateUntil": "2022-05-15",
+  "description": "",
+  "flights": 2,
+  "lat": 46.94,
+  "lng": 7.43
+}, {
+  "destination": "Athens",
+  "country": "GR",
+  "dateFrom": "2022-04-16",
+  "dateUntil": "2022-04-26",
+  "description": "",
+  "flights": 2,
+  "lat": 38,
+  "lng": 23.7
+}, {
+  "destination": "Allrode",
+  "country": "DE",
+  "dateFrom": "2022-03-06",
+  "dateUntil": "2022-03-13",
+  "description": "",
+  "flights": 0,
+  "lat": 51.67,
+  "lng": 10.96
+}, {
   "destination": "Teupitz",
   "country": "DE",
   "dateFrom": "2021-12-26",
