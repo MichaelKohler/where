@@ -1,6 +1,6 @@
 # where.michaelkohler.info
 
-Simple website to track Michael's trips.
+This project is now archived. Check out https://github.com/MichaelKohler/where.directory instead.
 
 ## Run it locally
 
