@@ -1,10 +1,10 @@
 # where.michaelkohler.info
 
-This project is now archived. Check out https://github.com/MichaelKohler/where.directory instead.
+Tracking my trips around the world.
 
 ## Run it locally
 
-```
-$ npm install
-$ npm start
+```bash
+npm install
+npm start
 ```

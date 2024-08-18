@@ -1,0 +1,84 @@
+---
+layout: layout.njk
+---
+
+<div class="container">
+  <div class="widget-row">
+    {% if nextTrip.destination %}
+      <section class="card next">
+        <h1>
+          Next trip:
+          {{nextTrip.destination}}
+        </h1>
+        <p>
+          {{nextTrip.from}}
+          &nbsp;-&nbsp;
+          {{nextTrip.to}}
+        </p>
+      </section>
+    {% endif %}
+    <section class="card vertical">
+      <div class="number">
+        <h2>{{totals.trips}}</h2>
+        <p>total trips</p>
+      </div>
+      <div class="number">
+        <h2>{{totals.destinations}}</h2>
+        <p>unique cities</p>
+      </div>
+      <div class="number">
+        <h2>{{totals.countries}}</h2>
+        <p>total countries</p>
+      </div>
+    </section>
+  </div>
+
+  <div id="map"></div>
+
+  <table class="trips">
+    <thead>
+      <tr>
+        <th>From</th>
+        <th>Until</th>
+        <th>Destination</th>
+        <th>Country</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for trip in formattedTrips %}
+        <tr>
+          <td>{{trip.dateFrom}}</td>
+          <td>{{trip.dateTo}}</td>
+          <td>{{trip.destination}}</td>
+          <td>{{trip.country}}</td>
+          <td>{{trip.description}}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  const geojson = {{geoJSON | dump | safe}}
+
+  mapboxgl.accessToken = '{{mapboxToken}}';
+
+  const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v11',
+    projection: 'mercator',
+    renderWorldCopies: false,
+    center: [0, 30],
+    zoom: 1.1,
+  });
+
+  for (const feature of geojson.features) {
+    const el = document.createElement('div');
+    el.className = 'marker';
+
+    new mapboxgl.Marker(el)
+      .setLngLat(feature.geometry.coordinates)
+      .addTo(map);
+  }
+</script>

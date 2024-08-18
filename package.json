@@ -1,80 +1,16 @@
 {
   "name": "where",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Where is Michael?",
   "author": "Michael Kohler",
   "license": "MPL-2.0",
   "main": "main.js",
   "dependencies": {
-    "@babel/preset-env": "^7.16.11",
-    "express": "^4.17.2",
-    "lodash": "^4.17.21",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-mapbox-gl": "^4.8.6",
-    "webpack-cli": "^4.9.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.16.10",
-    "@babel/preset-react": "^7.16.7",
-    "@testing-library/react": "^12.1.2",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^27.4.6",
-    "babel-loader": "^8.2.3",
-    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "copy-webpack-plugin": "^10.2.1",
-    "css-loader": "^6.5.1",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.28.0",
-    "jest": "^27.4.7",
-    "mini-css-extract-plugin": "^2.5.2",
-    "prop-types": "^15.8.1",
-    "react-hot-loader": "^4.13.0",
-    "sass": "^1.49.0",
-    "sass-loader": "^12.4.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.67.0",
-    "webpack-dev-server": "^4.7.3"
+    "@11ty/eleventy": "^2.0.1",
+    "dotenv": "^16.4.5"
   },
   "scripts": {
-    "build": "./node_modules/webpack/bin/webpack.js --mode production",
-    "start": "webpack serve --mode development --env development",
-    "eslint": "eslint src tests",
-    "test": "npm run eslint && jest"
-  },
-  "jest": {
-    "testEnvironment": "jsdom",
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/main.js"
-    ],
-    "coverageReporters": [
-      "lcov",
-      "text-summary"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 78,
-        "functions": 77,
-        "lines": 82,
-        "statements": 83
-      }
-    },
-    "transform": {
-      "^.+\\.js$": "babel-jest",
-      "\\.scss$": "<rootDir>/tests/file-transformer.js"
-    },
-    "moduleNameMapper": {
-      "trips.json": "<rootDir>/tests/__mocks__/trips.json",
-      "\\.css$": "<rootDir>/tests/__mocks__/style-mock.js"
-    },
-    "setupFiles": [
-      "<rootDir>/tests/test-setup.js"
-    ]
+    "build": "npx @11ty/eleventy",
+    "start": "npx eleventy --serve"
   }
 }
