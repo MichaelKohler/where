@@ -12,13 +12,13 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url("../fonts/raleway.woff2") format("woff2");
+  src: url("./fonts/raleway.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Dosis";
-  src: url("../fonts/dosis.woff2") format("woff2");
+  src: url("./fonts/dosis.woff2") format("woff2");
   font-display: swap;
 }
 
