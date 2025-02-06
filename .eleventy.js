@@ -1,4 +1,4 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("styles.css");
-  eleventyConfig.addPassthroughCopy("fonts/*");
+  eleventyConfig.addPassthroughCopy({ "public/styles.css": "styles.css" });
+  eleventyConfig.addPassthroughCopy({ "public/fonts/*": "fonts/*" });
 };
