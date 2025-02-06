@@ -4,30 +4,30 @@ layout: layout.njk
 
 <div class="container">
   <div class="widget-row">
-    {% if trips.default.nextTrip.destination %}
+    {% if trips.nextTrip.destination %}
       <section class="card next">
         <h1>
           Next trip:
-          {{trips.default.nextTrip.destination}}
+          {{trips.nextTrip.destination}}
         </h1>
         <p>
-          {{trips.default.nextTrip.from}}
+          {{trips.nextTrip.from}}
           &nbsp;-&nbsp;
-          {{trips.default.nextTrip.to}}
+          {{trips.nextTrip.to}}
         </p>
       </section>
     {% endif %}
     <section class="card vertical">
       <div class="number">
-        <h2>{{trips.default.totals.trips}}</h2>
+        <h2>{{trips.totals.trips}}</h2>
         <p>total trips</p>
       </div>
       <div class="number">
-        <h2>{{trips.default.totals.destinations}}</h2>
+        <h2>{{trips.totals.destinations}}</h2>
         <p>unique cities</p>
       </div>
       <div class="number">
-        <h2>{{trips.default.totals.countries}}</h2>
+        <h2>{{trips.totals.countries}}</h2>
         <p>total countries</p>
       </div>
     </section>
@@ -46,7 +46,7 @@ layout: layout.njk
       </tr>
     </thead>
     <tbody>
-      {% for trip in trips.default.formattedTrips %}
+      {% for trip in trips.formattedTrips %}
         <tr>
           <td>{{trip.dateFrom}}</td>
           <td>{{trip.dateTo}}</td>
@@ -60,9 +60,9 @@ layout: layout.njk
 </div>
 
 <script>
-  const geojson = {{trips.default.geoJSON | dump | safe}}
+  const geojson = {{trips.geoJSON | dump | safe}}
 
-  mapboxgl.accessToken = '{{trips.default.mapboxToken}}';
+  mapboxgl.accessToken = '{{trips.mapboxToken}}';
 
   const map = new mapboxgl.Map({
     container: 'map',
