@@ -1,5 +1,15 @@
 [
      {
+        "destination": "Litochoro",
+        "country": "GR",
+        "description": "",
+        "flights": 2,
+        "lat": 40.11,
+        "long": 22.50,
+        "from": "2025-06-15T00:00:00.000Z",
+        "to": "2025-07-01T00:00:00.000Z"
+     },
+     {
         "destination": "Bern",
         "country": "CH",
         "description": "",
