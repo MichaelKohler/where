@@ -1,5 +1,25 @@
 [
   {
+    "destination": "Altwigshagen",
+    "country": "DE",
+    "description": "",
+    "flights": 0,
+    "lat": 53.70,
+    "long": 13.80,
+    "from": "2025-07-24T00:00:00.000Z",
+    "to": "2025-07-27T00:00:00.000Z"
+  },
+  {
+    "destination": "Ahlbeck",
+    "country": "DE",
+    "description": "Day trip",
+    "flights": 0,
+    "lat": 53.94,
+    "long": 14.19,
+    "from": "2025-07-25T00:00:00.000Z",
+    "to": "2025-07-25T18:00:00.000Z"
+  },
+  {
     "destination": "Litochoro",
     "country": "GR",
     "description": "",
