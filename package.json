@@ -6,8 +6,8 @@
   "license": "MPL-2.0",
   "main": "main.js",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "dotenv": "^16.4.7"
+    "@11ty/eleventy": "^3.1.2",
+    "dotenv": "^17.2.1"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
