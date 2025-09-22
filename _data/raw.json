@@ -1,5 +1,45 @@
 [
   {
+    "destination": "Athens",
+    "country": "GR",
+    "description": "",
+    "flights": 0,
+    "lat": 38,
+    "long": 23.7,
+    "from": "2025-09-10T00:00:00.000Z",
+    "to": "2025-09-14T00:00:00.000Z"
+  },
+  {
+    "destination": "Kardamili",
+    "country": "GR",
+    "description": "",
+    "flights": 0,
+    "lat": 36.88769315562995,
+    "long": 22.23266516561699,
+    "from": "2025-09-07T00:00:00.000Z",
+    "to": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "destination": "Methoni",
+    "country": "GR",
+    "description": "",
+    "flights": 0,
+    "lat": 36.82,
+    "long": 21.71,
+    "from": "2025-08-31T00:00:00.000Z",
+    "to": "2025-09-07T00:00:00.000Z"
+  },
+  {
+    "destination": "Kalamata",
+    "country": "GR",
+    "description": "",
+    "flights": 2,
+    "lat": 37.05,
+    "long": 22.11,
+    "from": "2025-08-27T00:00:00.000Z",
+    "to": "2025-08-31T00:00:00.000Z"
+  },
+  {
     "destination": "Altwigshagen",
     "country": "DE",
     "description": "",
